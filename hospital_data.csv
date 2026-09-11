@@ -1,0 +1,1001 @@
+Patient_ID,Patient_Code,Age,Gender,City,Department,Doctor,Disease,Admission_Date,Discharge_Date,Length_of_Stay,Bill_Amount,Insurance_Type,Payment_Mode,Satisfaction,Readmitted
+1,P0001,15,Female,Pune,Pulmonology,Dr. Kulkarni,Heart Disease,4/17/2025,4/25/2025,8,62254,Government,Card,5,Yes
+2,P0002,60,Male,Navi Mumbai,Neurology,Dr. Rao,Kidney Disease,10/4/2025,10/5/2025,1,48013,Self-Pay,UPI,4.5,No
+3,P0003,60,Male,Nashik,Neurology,Dr. Rao,Pneumonia,9/28/2025,10/12/2025,14,104320,Private,UPI,4,No
+4,P0004,60,Female,Pune,Neurology,Dr. Rao,Kidney Disease,1/14/2025,1/16/2025,2,53161,Self-Pay,Insurance,4.2,Yes
+5,P0005,8,Female,Pune,Pulmonology,Dr. Kulkarni,Hypertension,2/4/2025,2/18/2025,14,88955,Government,Cash,3.1,No
+6,P0006,44,Female,Mumbai,Pulmonology,Dr. Kulkarni,Asthma,6/11/2025,6/21/2025,10,96163,Government,Insurance,4.8,No
+7,P0007,82,Male,Mumbai,Pediatrics,Dr. Iyer,Kidney Disease,2/22/2025,3/2/2025,8,41716,Private,Insurance,4.2,Yes
+8,P0008,63,Male,Nashik,Gastroenterology,Dr. Bhat,Hypertension,5/19/2025,5/22/2025,3,45659,Government,UPI,3.7,No
+9,P0009,28,Female,Navi Mumbai,Neurology,Dr. Khan,Cancer,5/15/2025,5/24/2025,9,92651,Self-Pay,Cash,5,No
+10,P0010,47,Male,Mumbai,Orthopedics,Dr. Patil,Heart Disease,5/11/2025,5/12/2025,1,39912,Self-Pay,UPI,3.2,No
+11,P0011,77,Male,Navi Mumbai,Neurology,Dr. Rao,Migraine,6/28/2025,7/13/2025,15,86061,Private,Insurance,4.6,No
+12,P0012,71,Male,Nashik,Pediatrics,Dr. Iyer,Fracture,7/6/2025,7/9/2025,3,36296,Government,Insurance,4,No
+13,P0013,44,Female,Mumbai,General Medicine,Dr. Gupta,Kidney Disease,12/6/2025,12/20/2025,14,82124,Private,Cash,3.5,No
+14,P0014,70,Female,Mumbai,Orthopedics,Dr. Patil,Heart Disease,5/17/2025,5/31/2025,14,76280,Private,Card,3.8,No
+15,P0015,52,Male,Thane,Cardiology,Dr. Mehta,Migraine,9/25/2025,10/9/2025,14,135952,Government,Insurance,3.2,Yes
+16,P0016,1,Female,Pune,Oncology,Dr. Desai,Heart Disease,5/6/2025,5/8/2025,2,89383,Self-Pay,UPI,3.3,No
+17,P0017,17,Male,Mumbai,Gastroenterology,Dr. Nair,Cancer,9/12/2025,9/18/2025,6,63363,Self-Pay,Card,4.4,Yes
+18,P0018,3,Female,Pune,Gastroenterology,Dr. Nair,Asthma,5/28/2025,6/9/2025,12,71414,Private,Cash,5,No
+19,P0019,39,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Hypertension,12/4/2025,12/12/2025,8,65571,Self-Pay,Insurance,3.4,No
+20,P0020,60,Male,Mumbai,Gastroenterology,Dr. Bhat,Heart Disease,1/2/2025,1/3/2025,1,42079,Self-Pay,UPI,4.5,No
+21,P0021,3,Female,Mumbai,Gastroenterology,Dr. Bhat,Cancer,6/1/2025,6/7/2025,6,60359,Self-Pay,Cash,4.5,No
+22,P0022,82,Male,Pune,Pediatrics,Dr. Iyer,Pneumonia,7/13/2025,7/19/2025,6,48702,Private,Card,4.8,No
+23,P0023,20,Female,Nashik,Pediatrics,Dr. Iyer,Hypertension,5/15/2025,5/18/2025,3,37739,Self-Pay,Card,3.8,No
+24,P0024,27,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Hypertension,8/14/2025,8/19/2025,5,45895,Self-Pay,Insurance,3.5,No
+25,P0025,17,Female,Mumbai,Cardiology,Dr. Mehta,Heart Disease,6/21/2025,7/3/2025,12,120214,Self-Pay,Cash,4.4,No
+26,P0026,33,Male,Thane,Pediatrics,Dr. Iyer,Diabetes,9/13/2025,9/16/2025,3,28802,Self-Pay,Card,2.6,No
+27,P0027,27,Female,Mumbai,Pulmonology,Dr. Kulkarni,Hypertension,9/30/2025,10/8/2025,8,87071,Private,Insurance,2.7,No
+28,P0028,57,Female,Pune,Neurology,Dr. Khan,Asthma,2/5/2025,2/18/2025,13,110323,Self-Pay,UPI,4.3,No
+29,P0029,66,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Fracture,10/15/2025,10/22/2025,7,83450,Private,Cash,4.1,No
+30,P0030,60,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Migraine,4/18/2025,4/23/2025,5,49063,Self-Pay,Insurance,4.1,No
+31,P0031,13,Female,Nashik,General Medicine,Dr. Gupta,Pneumonia,5/4/2025,5/14/2025,10,40020,Government,UPI,5,No
+32,P0032,12,Female,Mumbai,Pulmonology,Dr. Verma,Kidney Disease,5/9/2025,5/19/2025,10,66161,Private,Cash,3.7,No
+33,P0033,61,Male,Nashik,Cardiology,Dr. Mehta,Heart Disease,7/11/2025,7/26/2025,15,125040,Government,Insurance,3.5,No
+34,P0034,62,Male,Nashik,Pediatrics,Dr. Shah,Kidney Disease,7/23/2025,8/2/2025,10,66274,Self-Pay,Card,3.1,No
+35,P0035,69,Female,Thane,Neurology,Dr. Rao,Asthma,4/10/2025,4/12/2025,2,49949,Private,Insurance,5,No
+36,P0036,84,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Diabetes,6/1/2025,6/13/2025,12,100379,Self-Pay,Cash,4.1,Yes
+37,P0037,65,Female,Thane,General Medicine,Dr. Singh,Diabetes,6/17/2025,6/27/2025,10,72405,Government,Card,3.7,No
+38,P0038,7,Female,Mumbai,Neurology,Dr. Khan,Heart Disease,7/15/2025,7/25/2025,10,86498,Private,Cash,4.1,No
+39,P0039,10,Female,Nashik,Cardiology,Dr. Mehta,Cancer,12/23/2025,1/1/2026,9,93696,Private,UPI,2.7,No
+40,P0040,30,Male,Mumbai,Pediatrics,Dr. Shah,Asthma,9/30/2025,10/1/2025,1,14593,Private,Cash,3.1,No
+41,P0041,9,Male,Mumbai,Orthopedics,Dr. Joshi,Asthma,10/11/2025,10/25/2025,14,120564,Self-Pay,Cash,4.8,No
+42,P0042,58,Male,Pune,Pediatrics,Dr. Iyer,Heart Disease,8/11/2025,8/21/2025,10,46650,Private,Card,5,No
+43,P0043,17,Male,Nashik,Neurology,Dr. Rao,Migraine,9/10/2025,9/16/2025,6,63459,Government,UPI,4.6,Yes
+44,P0044,65,Female,Pune,Gastroenterology,Dr. Bhat,Hypertension,12/8/2025,12/12/2025,4,42534,Government,Insurance,3.8,No
+45,P0045,61,Female,Pune,Pulmonology,Dr. Verma,Migraine,12/30/2025,1/5/2026,6,74021,Private,UPI,3.8,No
+46,P0046,1,Female,Mumbai,Cardiology,Dr. Sharma,Gastritis,12/14/2025,12/28/2025,14,98527,Government,Cash,4,No
+47,P0047,44,Male,Mumbai,Oncology,Dr. Kapoor,Heart Disease,6/22/2025,7/5/2025,13,167900,Private,Card,4.6,Yes
+48,P0048,1,Female,Thane,Pulmonology,Dr. Verma,Pneumonia,2/23/2025,3/1/2025,6,64880,Government,Insurance,3.3,Yes
+49,P0049,8,Male,Pune,Gastroenterology,Dr. Bhat,Asthma,5/2/2025,5/14/2025,12,106939,Self-Pay,Card,4.7,Yes
+50,P0050,73,Female,Nashik,Pulmonology,Dr. Verma,Pneumonia,7/31/2025,8/13/2025,13,113389,Self-Pay,Cash,2.7,No
+51,P0051,56,Male,Nashik,Neurology,Dr. Rao,Heart Disease,10/13/2025,10/15/2025,2,52046,Government,UPI,3.9,No
+52,P0052,59,Male,Nashik,Cardiology,Dr. Mehta,Hypertension,10/10/2025,10/11/2025,1,59477,Self-Pay,Card,5,No
+53,P0053,69,Female,Mumbai,General Medicine,Dr. Singh,Fracture,12/17/2025,12/22/2025,5,39990,Self-Pay,Cash,3.7,No
+54,P0054,62,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Cancer,10/15/2025,10/17/2025,2,32637,Self-Pay,Card,4.4,No
+55,P0055,54,Male,Navi Mumbai,General Medicine,Dr. Singh,Gastritis,8/24/2025,8/29/2025,5,42944,Self-Pay,Card,5,No
+56,P0056,38,Female,Pune,Gastroenterology,Dr. Bhat,Diabetes,11/2/2025,11/4/2025,2,37718,Private,Card,3.7,Yes
+57,P0057,79,Male,Pune,Cardiology,Dr. Mehta,Kidney Disease,1/30/2025,2/6/2025,7,79576,Private,Card,3.9,No
+58,P0058,66,Male,Navi Mumbai,Oncology,Dr. Desai,Pneumonia,7/24/2025,8/7/2025,14,123470,Government,Insurance,5,Yes
+59,P0059,4,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,7/3/2025,7/12/2025,9,65749,Private,Cash,4.3,No
+60,P0060,42,Male,Thane,Neurology,Dr. Rao,Heart Disease,11/13/2025,11/19/2025,6,55531,Private,UPI,4,No
+61,P0061,47,Female,Thane,Cardiology,Dr. Mehta,Cancer,5/1/2025,5/7/2025,6,88090,Self-Pay,Card,4.1,No
+62,P0062,26,Male,Pune,Gastroenterology,Dr. Bhat,Cancer,1/14/2025,1/25/2025,11,69524,Private,Card,4,No
+63,P0063,15,Female,Pune,Neurology,Dr. Rao,Migraine,7/11/2025,7/20/2025,9,85080,Private,Cash,4.8,Yes
+64,P0064,25,Female,Thane,Pediatrics,Dr. Iyer,Pneumonia,3/9/2025,3/19/2025,10,47668,Self-Pay,Insurance,4.2,No
+65,P0065,83,Female,Nashik,Gastroenterology,Dr. Nair,Heart Disease,2/11/2025,2/20/2025,9,75552,Private,Cash,3,No
+66,P0066,21,Female,Mumbai,Pediatrics,Dr. Iyer,Migraine,7/17/2025,7/23/2025,6,51991,Self-Pay,UPI,4.4,No
+67,P0067,40,Female,Mumbai,Orthopedics,Dr. Patil,Cancer,8/17/2025,8/21/2025,4,47509,Government,Insurance,4.6,Yes
+68,P0068,62,Female,Mumbai,Oncology,Dr. Desai,Cancer,7/13/2025,7/28/2025,15,134617,Self-Pay,Cash,4.1,No
+69,P0069,64,Male,Thane,Neurology,Dr. Rao,Asthma,2/7/2025,2/12/2025,5,72224,Government,Cash,3.9,Yes
+70,P0070,84,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Heart Disease,11/17/2025,12/2/2025,15,98972,Government,UPI,3.7,Yes
+71,P0071,62,Female,Nashik,Cardiology,Dr. Sharma,Heart Disease,8/24/2025,8/26/2025,2,54280,Self-Pay,Cash,4.1,No
+72,P0072,60,Female,Pune,Pediatrics,Dr. Iyer,Heart Disease,10/13/2025,10/16/2025,3,33740,Private,Cash,3.9,No
+73,P0073,18,Male,Mumbai,Neurology,Dr. Khan,Migraine,10/23/2025,10/31/2025,8,90719,Private,Cash,2.7,No
+74,P0074,66,Female,Navi Mumbai,Cardiology,Dr. Sharma,Cancer,11/5/2025,11/13/2025,8,108446,Self-Pay,UPI,3.8,Yes
+75,P0075,64,Male,Nashik,Gastroenterology,Dr. Bhat,Hypertension,1/15/2025,1/30/2025,15,99694,Private,UPI,4.1,No
+76,P0076,68,Male,Pune,Pulmonology,Dr. Verma,Kidney Disease,3/27/2025,3/29/2025,2,44834,Private,Insurance,4.2,Yes
+77,P0077,15,Male,Navi Mumbai,General Medicine,Dr. Gupta,Heart Disease,6/6/2025,6/14/2025,8,73206,Government,UPI,5,Yes
+78,P0078,20,Male,Thane,Orthopedics,Dr. Patil,Kidney Disease,1/11/2025,1/25/2025,14,116655,Government,UPI,3.7,No
+79,P0079,13,Female,Pune,General Medicine,Dr. Gupta,Diabetes,4/14/2025,4/28/2025,14,69566,Private,Insurance,4.5,Yes
+80,P0080,31,Male,Nashik,Pediatrics,Dr. Iyer,Cancer,2/20/2025,3/5/2025,13,90081,Private,Card,5,No
+81,P0081,54,Male,Thane,Oncology,Dr. Kapoor,Fracture,11/9/2025,11/10/2025,1,86902,Private,UPI,3.9,No
+82,P0082,25,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Fracture,3/31/2025,4/11/2025,11,64805,Private,Insurance,3.7,No
+83,P0083,51,Male,Navi Mumbai,Orthopedics,Dr. Patil,Gastritis,7/1/2025,7/9/2025,8,71219,Government,Card,4.6,No
+84,P0084,85,Female,Pune,General Medicine,Dr. Gupta,Hypertension,2/18/2025,2/25/2025,7,55212,Self-Pay,Cash,3.9,No
+85,P0085,71,Male,Nashik,Gastroenterology,Dr. Nair,Migraine,9/14/2025,9/27/2025,13,95824,Private,Card,3.6,No
+86,P0086,19,Male,Thane,Gastroenterology,Dr. Bhat,Pneumonia,1/18/2025,1/19/2025,1,41038,Government,Card,4.8,No
+87,P0087,4,Female,Thane,Orthopedics,Dr. Patil,Migraine,9/21/2025,10/4/2025,13,91846,Self-Pay,Cash,5,No
+88,P0088,57,Female,Mumbai,Gastroenterology,Dr. Nair,Cancer,9/4/2025,9/7/2025,3,52048,Self-Pay,Cash,4.1,Yes
+89,P0089,8,Male,Thane,Orthopedics,Dr. Patil,Cancer,10/18/2025,10/26/2025,8,82479,Self-Pay,Card,5,No
+90,P0090,23,Male,Nashik,Pulmonology,Dr. Verma,Pneumonia,3/26/2025,3/29/2025,3,40601,Self-Pay,Card,3.3,No
+91,P0091,67,Male,Pune,Pulmonology,Dr. Kulkarni,Asthma,4/29/2025,5/11/2025,12,77869,Government,Card,3.6,No
+92,P0092,81,Female,Mumbai,General Medicine,Dr. Gupta,Cancer,7/21/2025,8/4/2025,14,85657,Government,UPI,4.9,No
+93,P0093,9,Female,Nashik,Cardiology,Dr. Mehta,Gastritis,2/9/2025,2/11/2025,2,64228,Private,Card,4.1,No
+94,P0094,75,Female,Mumbai,Pulmonology,Dr. Verma,Heart Disease,11/22/2025,11/24/2025,2,39653,Private,Cash,3.9,No
+95,P0095,76,Female,Pune,Oncology,Dr. Kapoor,Kidney Disease,3/28/2025,4/2/2025,5,96449,Private,Cash,3.4,No
+96,P0096,10,Female,Thane,Pediatrics,Dr. Shah,Kidney Disease,6/22/2025,6/23/2025,1,23171,Government,UPI,3.4,No
+97,P0097,53,Male,Navi Mumbai,Cardiology,Dr. Sharma,Kidney Disease,10/19/2025,10/22/2025,3,73212,Government,Card,3.8,No
+98,P0098,24,Male,Navi Mumbai,Pulmonology,Dr. Verma,Heart Disease,9/3/2025,9/9/2025,6,58425,Self-Pay,Cash,4.8,No
+99,P0099,73,Female,Mumbai,Oncology,Dr. Desai,Heart Disease,6/3/2025,6/5/2025,2,81583,Self-Pay,UPI,4,No
+100,P0100,44,Male,Nashik,Orthopedics,Dr. Joshi,Pneumonia,4/12/2025,4/14/2025,2,49579,Private,Card,5,No
+101,P0101,47,Female,Mumbai,Cardiology,Dr. Sharma,Cancer,1/12/2025,1/26/2025,14,90627,Government,Cash,4.9,No
+102,P0102,59,Female,Thane,General Medicine,Dr. Singh,Kidney Disease,12/31/2025,1/10/2026,10,54182,Self-Pay,Card,4.5,No
+103,P0103,7,Male,Navi Mumbai,Pulmonology,Dr. Verma,Cancer,5/17/2025,5/20/2025,3,46081,Government,UPI,4,No
+104,P0104,17,Male,Nashik,Neurology,Dr. Khan,Cancer,1/14/2025,1/29/2025,15,127028,Self-Pay,Insurance,4.5,No
+105,P0105,39,Male,Thane,Neurology,Dr. Khan,Hypertension,1/15/2025,1/23/2025,8,89164,Government,Card,4.9,No
+106,P0106,42,Female,Navi Mumbai,Pulmonology,Dr. Verma,Migraine,2/3/2025,2/17/2025,14,96660,Self-Pay,UPI,4.6,No
+107,P0107,29,Male,Pune,Oncology,Dr. Kapoor,Gastritis,11/14/2025,11/19/2025,5,87366,Private,Cash,3.5,Yes
+108,P0108,3,Female,Mumbai,Oncology,Dr. Desai,Diabetes,5/22/2025,5/30/2025,8,105429,Private,Card,2.9,No
+109,P0109,15,Female,Navi Mumbai,Pulmonology,Dr. Verma,Cancer,11/1/2025,11/10/2025,9,66593,Government,Cash,3.9,No
+110,P0110,71,Male,Thane,Neurology,Dr. Khan,Cancer,2/21/2025,2/25/2025,4,52100,Private,Card,3.4,Yes
+111,P0111,3,Male,Nashik,Cardiology,Dr. Sharma,Heart Disease,9/19/2025,9/24/2025,5,64979,Self-Pay,Card,4.1,No
+112,P0112,82,Male,Nashik,Orthopedics,Dr. Joshi,Cancer,3/3/2025,3/4/2025,1,44949,Self-Pay,Cash,3,No
+113,P0113,14,Female,Mumbai,Cardiology,Dr. Mehta,Gastritis,12/23/2025,12/25/2025,2,64543,Self-Pay,Insurance,3.6,No
+114,P0114,11,Female,Nashik,Cardiology,Dr. Sharma,Fracture,8/14/2025,8/22/2025,8,102071,Private,Insurance,4,No
+115,P0115,81,Male,Mumbai,Pediatrics,Dr. Shah,Pneumonia,4/24/2025,5/2/2025,8,65594,Government,Insurance,4.9,No
+116,P0116,40,Female,Pune,Orthopedics,Dr. Joshi,Gastritis,4/2/2025,4/3/2025,1,35466,Self-Pay,UPI,3.2,No
+117,P0117,7,Female,Thane,Oncology,Dr. Kapoor,Kidney Disease,5/13/2025,5/24/2025,11,133538,Government,Card,3.9,No
+118,P0118,12,Female,Nashik,Pediatrics,Dr. Shah,Hypertension,10/22/2025,10/24/2025,2,31775,Self-Pay,Insurance,4.1,No
+119,P0119,30,Female,Pune,Oncology,Dr. Desai,Diabetes,3/15/2025,3/24/2025,9,129053,Government,Insurance,4.4,Yes
+120,P0120,17,Female,Navi Mumbai,Orthopedics,Dr. Joshi,Hypertension,1/12/2025,1/18/2025,6,53062,Government,Card,4.1,Yes
+121,P0121,47,Male,Navi Mumbai,Oncology,Dr. Kapoor,Asthma,10/12/2025,10/24/2025,12,114490,Self-Pay,Card,2.8,Yes
+122,P0122,46,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Asthma,8/14/2025,8/27/2025,13,61336,Government,UPI,5,No
+123,P0123,22,Male,Pune,Oncology,Dr. Kapoor,Hypertension,1/27/2025,1/30/2025,3,99562,Government,UPI,4.5,No
+124,P0124,3,Female,Mumbai,Cardiology,Dr. Sharma,Fracture,9/14/2025,9/24/2025,10,117405,Private,Insurance,3.9,No
+125,P0125,15,Male,Pune,General Medicine,Dr. Gupta,Cancer,7/27/2025,8/7/2025,11,57100,Private,Insurance,5,Yes
+126,P0126,3,Female,Pune,General Medicine,Dr. Gupta,Gastritis,2/15/2025,3/2/2025,15,99085,Private,Card,2.3,Yes
+127,P0127,60,Female,Nashik,Gastroenterology,Dr. Nair,Fracture,11/15/2025,11/21/2025,6,41129,Government,Card,3.6,No
+128,P0128,38,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Gastritis,2/1/2025,2/12/2025,11,77170,Private,Cash,4.7,No
+129,P0129,46,Female,Mumbai,General Medicine,Dr. Singh,Fracture,6/9/2025,6/24/2025,15,100205,Private,Insurance,4,No
+130,P0130,66,Female,Thane,Neurology,Dr. Rao,Kidney Disease,6/15/2025,6/22/2025,7,74824,Self-Pay,Insurance,3.5,No
+131,P0131,75,Female,Thane,Cardiology,Dr. Mehta,Fracture,11/13/2025,11/16/2025,3,65585,Government,Insurance,5,No
+132,P0132,7,Male,Mumbai,Oncology,Dr. Desai,Fracture,3/25/2025,3/29/2025,4,93561,Government,Card,5,No
+133,P0133,12,Male,Nashik,Orthopedics,Dr. Joshi,Gastritis,3/28/2025,4/9/2025,12,85553,Self-Pay,Insurance,3.8,No
+134,P0134,82,Female,Thane,Orthopedics,Dr. Joshi,Heart Disease,7/30/2025,8/5/2025,6,49786,Self-Pay,UPI,2.6,No
+135,P0135,54,Male,Pune,Pediatrics,Dr. Shah,Migraine,7/26/2025,7/27/2025,1,23393,Government,Insurance,3.9,No
+136,P0136,50,Male,Thane,General Medicine,Dr. Gupta,Gastritis,6/26/2025,6/29/2025,3,29950,Government,UPI,4.4,No
+137,P0137,58,Female,Thane,Neurology,Dr. Khan,Pneumonia,9/3/2025,9/16/2025,13,86192,Government,Card,3.7,No
+138,P0138,37,Male,Mumbai,Neurology,Dr. Khan,Gastritis,11/21/2025,11/27/2025,6,65715,Government,UPI,4.4,No
+139,P0139,28,Male,Navi Mumbai,Oncology,Dr. Desai,Heart Disease,3/7/2025,3/10/2025,3,100806,Government,UPI,5,No
+140,P0140,80,Male,Pune,Oncology,Dr. Kapoor,Gastritis,4/3/2025,4/13/2025,10,114076,Private,Cash,5,No
+141,P0141,84,Female,Pune,Gastroenterology,Dr. Bhat,Heart Disease,10/11/2025,10/20/2025,9,76222,Self-Pay,UPI,5,No
+142,P0142,61,Male,Navi Mumbai,Oncology,Dr. Kapoor,Gastritis,11/30/2025,12/2/2025,2,86867,Government,Cash,4.1,Yes
+143,P0143,69,Male,Navi Mumbai,Pediatrics,Dr. Shah,Pneumonia,6/10/2025,6/11/2025,1,22956,Government,UPI,4.1,No
+144,P0144,84,Female,Thane,General Medicine,Dr. Gupta,Asthma,5/31/2025,6/14/2025,14,86551,Private,Cash,4.3,No
+145,P0145,29,Male,Thane,Pulmonology,Dr. Kulkarni,Heart Disease,12/18/2025,12/24/2025,6,61481,Government,Card,4.6,No
+146,P0146,26,Male,Pune,Neurology,Dr. Khan,Cancer,5/16/2025,5/31/2025,15,144655,Private,Cash,3.1,Yes
+147,P0147,80,Male,Mumbai,Orthopedics,Dr. Patil,Heart Disease,5/22/2025,5/27/2025,5,66405,Private,Cash,3.3,No
+148,P0148,13,Female,Pune,Cardiology,Dr. Mehta,Gastritis,3/14/2025,3/19/2025,5,76108,Government,UPI,3.7,No
+149,P0149,82,Female,Thane,Oncology,Dr. Kapoor,Hypertension,10/6/2025,10/9/2025,3,89790,Self-Pay,UPI,3.9,No
+150,P0150,60,Female,Thane,Pediatrics,Dr. Shah,Hypertension,4/3/2025,4/12/2025,9,81027,Self-Pay,UPI,4,No
+151,P0151,78,Male,Nashik,Gastroenterology,Dr. Bhat,Gastritis,11/26/2025,11/28/2025,2,36280,Government,Cash,4,No
+152,P0152,48,Female,Thane,General Medicine,Dr. Singh,Asthma,10/20/2025,11/4/2025,15,101184,Self-Pay,UPI,4.8,No
+153,P0153,23,Female,Nashik,Pediatrics,Dr. Shah,Heart Disease,4/17/2025,4/24/2025,7,36644,Government,UPI,3.5,No
+154,P0154,28,Female,Thane,Pediatrics,Dr. Shah,Kidney Disease,10/18/2025,10/26/2025,8,55737,Private,Card,3.8,No
+155,P0155,74,Female,Nashik,Orthopedics,Dr. Patil,Migraine,2/8/2025,2/21/2025,13,101272,Government,UPI,3.4,No
+156,P0156,22,Male,Thane,Orthopedics,Dr. Patil,Fracture,4/28/2025,5/3/2025,5,60883,Government,Cash,3.9,No
+157,P0157,72,Female,Mumbai,Pediatrics,Dr. Iyer,Kidney Disease,6/1/2025,6/2/2025,1,19515,Government,UPI,4.6,No
+158,P0158,55,Male,Nashik,General Medicine,Dr. Gupta,Hypertension,8/30/2025,9/4/2025,5,31089,Private,Card,3.6,No
+159,P0159,15,Female,Navi Mumbai,Gastroenterology,Dr. Nair,Kidney Disease,6/9/2025,6/20/2025,11,71977,Self-Pay,Cash,3.6,Yes
+160,P0160,42,Female,Thane,Neurology,Dr. Khan,Gastritis,5/5/2025,5/12/2025,7,88944,Government,Card,4.1,No
+161,P0161,36,Male,Mumbai,Gastroenterology,Dr. Nair,Hypertension,8/20/2025,8/25/2025,5,50843,Government,Insurance,3,No
+162,P0162,27,Female,Nashik,Pediatrics,Dr. Iyer,Cancer,6/9/2025,6/14/2025,5,40952,Government,UPI,3.1,No
+163,P0163,2,Female,Pune,Oncology,Dr. Kapoor,Diabetes,8/3/2025,8/15/2025,12,141356,Government,Insurance,4,No
+164,P0164,31,Male,Pune,Pediatrics,Dr. Shah,Migraine,10/30/2025,11/8/2025,9,37028,Private,Insurance,4.1,Yes
+165,P0165,84,Male,Pune,General Medicine,Dr. Gupta,Migraine,1/3/2025,1/17/2025,14,116972,Government,Card,4.1,No
+166,P0166,32,Female,Mumbai,Neurology,Dr. Rao,Fracture,6/10/2025,6/15/2025,5,57900,Self-Pay,Card,4.5,Yes
+167,P0167,85,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Gastritis,9/15/2025,9/26/2025,11,70918,Government,UPI,3.6,No
+168,P0168,60,Female,Nashik,Pulmonology,Dr. Kulkarni,Kidney Disease,4/11/2025,4/15/2025,4,51988,Self-Pay,Card,4.6,Yes
+169,P0169,30,Female,Pune,Gastroenterology,Dr. Bhat,Migraine,5/14/2025,5/17/2025,3,43402,Government,Insurance,3.2,No
+170,P0170,66,Female,Nashik,Neurology,Dr. Khan,Fracture,10/8/2025,10/21/2025,13,131153,Self-Pay,UPI,3.8,No
+171,P0171,25,Female,Pune,Cardiology,Dr. Mehta,Diabetes,5/21/2025,5/26/2025,5,79457,Private,UPI,2.9,Yes
+172,P0172,18,Female,Pune,Oncology,Dr. Kapoor,Fracture,11/12/2025,11/27/2025,15,150169,Self-Pay,UPI,4,Yes
+173,P0173,5,Male,Mumbai,Pulmonology,Dr. Verma,Diabetes,9/23/2025,10/2/2025,9,82839,Self-Pay,Cash,4.1,No
+174,P0174,62,Male,Pune,Cardiology,Dr. Mehta,Hypertension,9/20/2025,10/2/2025,12,100327,Private,Insurance,3.8,No
+175,P0175,38,Male,Nashik,General Medicine,Dr. Gupta,Heart Disease,8/19/2025,8/21/2025,2,21578,Private,Card,4.3,No
+176,P0176,55,Female,Thane,Pediatrics,Dr. Iyer,Heart Disease,3/3/2025,3/14/2025,11,67560,Self-Pay,Cash,2.5,No
+177,P0177,85,Female,Navi Mumbai,Cardiology,Dr. Sharma,Heart Disease,8/30/2025,9/12/2025,13,122813,Self-Pay,Cash,4,Yes
+178,P0178,55,Female,Navi Mumbai,General Medicine,Dr. Gupta,Asthma,4/27/2025,5/7/2025,10,57325,Private,Cash,4.4,No
+179,P0179,38,Male,Mumbai,General Medicine,Dr. Singh,Kidney Disease,2/11/2025,2/16/2025,5,40392,Government,Card,4.8,No
+180,P0180,60,Female,Mumbai,Neurology,Dr. Rao,Migraine,8/20/2025,8/25/2025,5,62520,Self-Pay,Cash,3.2,No
+181,P0181,45,Female,Mumbai,General Medicine,Dr. Singh,Hypertension,3/10/2025,3/22/2025,12,77999,Private,Insurance,3.7,Yes
+182,P0182,58,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Asthma,8/16/2025,8/27/2025,11,92264,Self-Pay,Card,4.1,No
+183,P0183,8,Female,Mumbai,Pediatrics,Dr. Shah,Fracture,11/16/2025,11/26/2025,10,85219,Private,Card,4.7,No
+184,P0184,67,Female,Thane,Pulmonology,Dr. Kulkarni,Asthma,2/18/2025,2/22/2025,4,51284,Government,Cash,4,No
+185,P0185,2,Male,Navi Mumbai,General Medicine,Dr. Gupta,Diabetes,9/26/2025,10/1/2025,5,28631,Government,Insurance,4.4,No
+186,P0186,22,Male,Thane,Neurology,Dr. Khan,Pneumonia,8/1/2025,8/13/2025,12,75380,Government,UPI,3.9,No
+187,P0187,12,Female,Navi Mumbai,Pulmonology,Dr. Verma,Diabetes,8/21/2025,9/5/2025,15,107100,Government,Card,4.3,No
+188,P0188,22,Female,Navi Mumbai,Orthopedics,Dr. Patil,Diabetes,12/14/2025,12/27/2025,13,123062,Self-Pay,Insurance,5,Yes
+189,P0189,22,Male,Pune,General Medicine,Dr. Singh,Hypertension,6/20/2025,6/25/2025,5,47921,Self-Pay,Cash,4.4,No
+190,P0190,8,Female,Navi Mumbai,Gastroenterology,Dr. Nair,Cancer,12/28/2025,1/7/2026,10,61354,Government,Card,2.8,No
+191,P0191,10,Female,Pune,Orthopedics,Dr. Patil,Diabetes,10/29/2025,11/5/2025,7,67745,Private,Card,5,No
+192,P0192,34,Female,Nashik,Oncology,Dr. Desai,Pneumonia,1/20/2025,1/31/2025,11,147723,Government,Insurance,5,No
+193,P0193,26,Male,Pune,Oncology,Dr. Desai,Heart Disease,10/20/2025,10/26/2025,6,102104,Private,Card,4.8,Yes
+194,P0194,80,Female,Thane,Orthopedics,Dr. Joshi,Asthma,7/5/2025,7/12/2025,7,72088,Self-Pay,UPI,3.6,No
+195,P0195,19,Male,Pune,General Medicine,Dr. Gupta,Pneumonia,11/1/2025,11/16/2025,15,69769,Government,UPI,4.4,No
+196,P0196,18,Male,Mumbai,Cardiology,Dr. Sharma,Hypertension,11/15/2025,11/19/2025,4,74907,Government,Cash,3.7,No
+197,P0197,70,Male,Pune,Cardiology,Dr. Sharma,Fracture,9/17/2025,9/21/2025,4,65671,Private,Card,4.8,No
+198,P0198,77,Male,Nashik,Neurology,Dr. Khan,Fracture,4/17/2025,4/18/2025,1,44177,Self-Pay,Card,2.6,No
+199,P0199,26,Female,Pune,Orthopedics,Dr. Joshi,Heart Disease,3/10/2025,3/23/2025,13,90635,Government,UPI,4.5,No
+200,P0200,35,Female,Pune,Pulmonology,Dr. Kulkarni,Gastritis,5/9/2025,5/17/2025,8,76325,Private,UPI,3.9,Yes
+201,P0201,36,Female,Thane,General Medicine,Dr. Gupta,Cancer,8/1/2025,8/15/2025,14,64963,Government,UPI,3.3,No
+202,P0202,77,Female,Navi Mumbai,Neurology,Dr. Khan,Gastritis,3/11/2025,3/23/2025,12,99558,Private,Cash,3.4,Yes
+203,P0203,33,Male,Thane,General Medicine,Dr. Gupta,Diabetes,1/7/2025,1/13/2025,6,39953,Government,Insurance,3.3,No
+204,P0204,14,Female,Mumbai,Gastroenterology,Dr. Bhat,Kidney Disease,11/9/2025,11/14/2025,5,57430,Self-Pay,UPI,4.1,No
+205,P0205,12,Female,Nashik,Cardiology,Dr. Sharma,Heart Disease,6/10/2025,6/12/2025,2,58421,Private,Card,4.2,No
+206,P0206,43,Female,Thane,General Medicine,Dr. Gupta,Fracture,6/18/2025,6/25/2025,7,65028,Private,Card,3.6,No
+207,P0207,2,Female,Pune,Pediatrics,Dr. Shah,Diabetes,1/22/2025,1/31/2025,9,44780,Self-Pay,Card,5,No
+208,P0208,63,Female,Nashik,Orthopedics,Dr. Joshi,Heart Disease,2/18/2025,2/25/2025,7,70457,Self-Pay,Card,3.3,No
+209,P0209,14,Female,Navi Mumbai,General Medicine,Dr. Gupta,Kidney Disease,6/17/2025,6/27/2025,10,65009,Government,UPI,4.6,No
+210,P0210,50,Female,Mumbai,General Medicine,Dr. Singh,Cancer,7/16/2025,7/19/2025,3,31478,Private,Cash,3.9,No
+211,P0211,9,Male,Thane,Gastroenterology,Dr. Nair,Cancer,2/16/2025,3/3/2025,15,124906,Self-Pay,Insurance,4.3,No
+212,P0212,1,Female,Navi Mumbai,Oncology,Dr. Desai,Heart Disease,1/8/2025,1/13/2025,5,101168,Private,Insurance,3.2,No
+213,P0213,16,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Migraine,5/9/2025,5/24/2025,15,122229,Self-Pay,Insurance,3.3,No
+214,P0214,25,Female,Nashik,Orthopedics,Dr. Patil,Asthma,5/11/2025,5/12/2025,1,46495,Self-Pay,Cash,4.3,No
+215,P0215,9,Male,Pune,General Medicine,Dr. Singh,Gastritis,5/14/2025,5/17/2025,3,43145,Government,Card,2.5,No
+216,P0216,28,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Hypertension,9/5/2025,9/15/2025,10,67690,Self-Pay,Card,3.6,Yes
+217,P0217,57,Female,Thane,Neurology,Dr. Khan,Hypertension,10/6/2025,10/12/2025,6,71145,Government,UPI,4,Yes
+218,P0218,28,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Fracture,2/16/2025,2/23/2025,7,76177,Government,Cash,4.1,No
+219,P0219,15,Male,Mumbai,Pulmonology,Dr. Kulkarni,Pneumonia,7/10/2025,7/15/2025,5,56072,Self-Pay,Insurance,5,No
+220,P0220,82,Female,Pune,Pediatrics,Dr. Shah,Fracture,4/25/2025,4/26/2025,1,24612,Private,Insurance,3.6,Yes
+221,P0221,19,Female,Mumbai,Oncology,Dr. Desai,Asthma,1/30/2025,2/14/2025,15,144532,Self-Pay,Card,3.7,No
+222,P0222,42,Male,Pune,Orthopedics,Dr. Patil,Asthma,10/2/2025,10/11/2025,9,84461,Self-Pay,Cash,4,No
+223,P0223,47,Male,Mumbai,General Medicine,Dr. Singh,Heart Disease,4/30/2025,5/6/2025,6,55042,Self-Pay,Card,2.7,No
+224,P0224,68,Male,Nashik,Oncology,Dr. Desai,Cancer,3/9/2025,3/21/2025,12,162039,Government,Cash,3.8,No
+225,P0225,12,Female,Mumbai,Gastroenterology,Dr. Bhat,Diabetes,2/4/2025,2/15/2025,11,80990,Private,Cash,3.1,No
+226,P0226,9,Male,Pune,Cardiology,Dr. Sharma,Hypertension,11/20/2025,11/23/2025,3,65400,Government,Insurance,4.6,No
+227,P0227,15,Male,Pune,Oncology,Dr. Desai,Kidney Disease,12/27/2025,12/30/2025,3,93282,Self-Pay,UPI,3.9,No
+228,P0228,4,Female,Navi Mumbai,General Medicine,Dr. Gupta,Pneumonia,3/17/2025,3/30/2025,13,97016,Self-Pay,Cash,4.4,No
+229,P0229,38,Male,Pune,Cardiology,Dr. Mehta,Gastritis,9/19/2025,9/25/2025,6,92886,Government,Cash,4.1,No
+230,P0230,40,Female,Navi Mumbai,Cardiology,Dr. Sharma,Asthma,5/22/2025,5/25/2025,3,60113,Private,Card,3.7,Yes
+231,P0231,49,Female,Nashik,Pulmonology,Dr. Verma,Kidney Disease,7/11/2025,7/25/2025,14,100382,Self-Pay,UPI,3.5,No
+232,P0232,41,Male,Pune,Pulmonology,Dr. Verma,Pneumonia,2/8/2025,2/21/2025,13,85494,Self-Pay,Insurance,3.9,No
+233,P0233,61,Female,Pune,Gastroenterology,Dr. Bhat,Hypertension,4/19/2025,5/1/2025,12,108401,Government,Cash,4.1,No
+234,P0234,82,Male,Mumbai,Pulmonology,Dr. Kulkarni,Cancer,5/27/2025,6/11/2025,15,119951,Self-Pay,Card,3.6,Yes
+235,P0235,74,Male,Thane,Pulmonology,Dr. Verma,Kidney Disease,11/3/2025,11/14/2025,11,74996,Private,Card,3.8,No
+236,P0236,40,Male,Nashik,Orthopedics,Dr. Joshi,Gastritis,9/15/2025,9/16/2025,1,49148,Self-Pay,Card,3.8,No
+237,P0237,62,Female,Navi Mumbai,Pediatrics,Dr. Shah,Gastritis,2/18/2025,3/5/2025,15,74589,Private,UPI,3.9,No
+238,P0238,30,Female,Mumbai,Cardiology,Dr. Sharma,Diabetes,7/7/2025,7/19/2025,12,98350,Self-Pay,UPI,3.5,No
+239,P0239,48,Female,Nashik,Gastroenterology,Dr. Nair,Gastritis,6/9/2025,6/19/2025,10,61045,Self-Pay,Insurance,4.4,No
+240,P0240,65,Male,Navi Mumbai,Pediatrics,Dr. Iyer,Asthma,7/12/2025,7/27/2025,15,104206,Self-Pay,UPI,2.3,No
+241,P0241,11,Female,Mumbai,Orthopedics,Dr. Joshi,Fracture,11/1/2025,11/2/2025,1,39543,Self-Pay,Insurance,4.9,No
+242,P0242,50,Male,Pune,Cardiology,Dr. Sharma,Cancer,11/21/2025,12/5/2025,14,128252,Government,UPI,4.1,No
+243,P0243,64,Female,Nashik,Oncology,Dr. Kapoor,Diabetes,8/22/2025,8/25/2025,3,98565,Private,Card,4,Yes
+244,P0244,35,Male,Nashik,General Medicine,Dr. Singh,Asthma,3/28/2025,4/3/2025,6,38849,Self-Pay,UPI,3.2,No
+245,P0245,17,Male,Navi Mumbai,Oncology,Dr. Kapoor,Asthma,4/19/2025,4/25/2025,6,107076,Self-Pay,UPI,5,No
+246,P0246,32,Male,Pune,Orthopedics,Dr. Joshi,Kidney Disease,4/19/2025,4/22/2025,3,49701,Self-Pay,UPI,2.7,No
+247,P0247,1,Female,Mumbai,General Medicine,Dr. Singh,Cancer,4/2/2025,4/17/2025,15,77888,Government,UPI,4.4,No
+248,P0248,85,Male,Navi Mumbai,Pediatrics,Dr. Shah,Heart Disease,1/8/2025,1/20/2025,12,50532,Private,Card,3.5,No
+249,P0249,45,Female,Mumbai,Orthopedics,Dr. Joshi,Fracture,2/16/2025,2/28/2025,12,116805,Government,Card,3.7,No
+250,P0250,17,Male,Navi Mumbai,General Medicine,Dr. Gupta,Asthma,5/27/2025,6/6/2025,10,65780,Self-Pay,Insurance,4.2,No
+251,P0251,81,Female,Mumbai,Cardiology,Dr. Sharma,Diabetes,6/28/2025,7/3/2025,5,73156,Private,Cash,4.3,No
+252,P0252,72,Female,Nashik,Cardiology,Dr. Sharma,Fracture,5/27/2025,6/11/2025,15,126830,Self-Pay,UPI,5,No
+253,P0253,22,Female,Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,12/15/2025,12/21/2025,6,62775,Self-Pay,Insurance,3.7,No
+254,P0254,47,Male,Navi Mumbai,Oncology,Dr. Desai,Diabetes,6/12/2025,6/15/2025,3,87274,Private,Insurance,3.5,No
+255,P0255,1,Male,Mumbai,Cardiology,Dr. Sharma,Cancer,2/6/2025,2/19/2025,13,113850,Government,Card,4.1,No
+256,P0256,4,Male,Nashik,Oncology,Dr. Kapoor,Pneumonia,12/24/2025,1/4/2026,11,145643,Government,Cash,4.1,No
+257,P0257,16,Female,Thane,Pediatrics,Dr. Shah,Hypertension,3/7/2025,3/15/2025,8,61825,Private,Insurance,4.5,Yes
+258,P0258,34,Male,Navi Mumbai,Pulmonology,Dr. Verma,Cancer,10/22/2025,10/25/2025,3,45379,Government,Cash,4.7,No
+259,P0259,39,Female,Mumbai,Pulmonology,Dr. Verma,Gastritis,11/17/2025,11/18/2025,1,30764,Self-Pay,UPI,2.8,No
+260,P0260,74,Female,Thane,Gastroenterology,Dr. Bhat,Cancer,1/10/2025,1/14/2025,4,49135,Government,Insurance,4.8,No
+261,P0261,79,Female,Thane,Pediatrics,Dr. Iyer,Asthma,1/22/2025,2/5/2025,14,69418,Government,Insurance,3.5,No
+262,P0262,75,Female,Mumbai,Neurology,Dr. Khan,Hypertension,12/27/2025,1/8/2026,12,87329,Self-Pay,Insurance,4.6,No
+263,P0263,41,Female,Pune,Neurology,Dr. Rao,Gastritis,11/21/2025,12/3/2025,12,80822,Government,UPI,3.9,No
+264,P0264,83,Female,Nashik,Orthopedics,Dr. Patil,Cancer,6/26/2025,7/2/2025,6,76592,Private,Insurance,4.1,No
+265,P0265,55,Male,Pune,Orthopedics,Dr. Patil,Heart Disease,6/24/2025,7/1/2025,7,75650,Self-Pay,Cash,4.1,No
+266,P0266,21,Female,Pune,Oncology,Dr. Desai,Pneumonia,12/6/2025,12/9/2025,3,92497,Private,UPI,4,Yes
+267,P0267,18,Male,Thane,Pulmonology,Dr. Kulkarni,Pneumonia,9/13/2025,9/27/2025,14,78048,Private,Cash,3.7,No
+268,P0268,54,Female,Pune,Oncology,Dr. Desai,Migraine,4/10/2025,4/23/2025,13,119820,Government,UPI,5,No
+269,P0269,44,Male,Mumbai,General Medicine,Dr. Gupta,Cancer,5/29/2025,6/10/2025,12,65716,Government,Card,3.8,No
+270,P0270,44,Female,Mumbai,Neurology,Dr. Khan,Kidney Disease,10/30/2025,11/4/2025,5,69228,Government,Card,4.4,No
+271,P0271,3,Female,Pune,Orthopedics,Dr. Patil,Hypertension,4/21/2025,4/27/2025,6,71359,Government,Card,4.6,No
+272,P0272,28,Male,Nashik,Cardiology,Dr. Mehta,Hypertension,9/29/2025,10/14/2025,15,126632,Government,UPI,3.3,No
+273,P0273,34,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Heart Disease,5/14/2025,5/21/2025,7,48922,Private,Insurance,2.5,No
+274,P0274,51,Female,Nashik,Pediatrics,Dr. Shah,Cancer,6/9/2025,6/20/2025,11,96242,Government,UPI,4.2,No
+275,P0275,67,Female,Mumbai,General Medicine,Dr. Gupta,Diabetes,6/6/2025,6/8/2025,2,25654,Self-Pay,Cash,4.1,No
+276,P0276,84,Female,Thane,Gastroenterology,Dr. Bhat,Fracture,11/27/2025,12/12/2025,15,73724,Private,Card,3.7,No
+277,P0277,45,Male,Pune,Cardiology,Dr. Mehta,Heart Disease,12/5/2025,12/16/2025,11,123620,Government,Insurance,5,No
+278,P0278,57,Male,Pune,Oncology,Dr. Kapoor,Gastritis,2/16/2025,3/3/2025,15,168228,Private,UPI,3.3,Yes
+279,P0279,33,Female,Nashik,Gastroenterology,Dr. Bhat,Kidney Disease,8/14/2025,8/29/2025,15,105557,Self-Pay,Card,4.6,No
+280,P0280,6,Male,Pune,Orthopedics,Dr. Joshi,Hypertension,4/3/2025,4/11/2025,8,87058,Government,Cash,3.6,No
+281,P0281,48,Male,Thane,Gastroenterology,Dr. Bhat,Kidney Disease,7/3/2025,7/14/2025,11,85083,Government,Card,3.8,No
+282,P0282,29,Female,Thane,General Medicine,Dr. Gupta,Diabetes,2/28/2025,3/13/2025,13,75254,Government,UPI,3,No
+283,P0283,8,Male,Nashik,Gastroenterology,Dr. Nair,Hypertension,12/18/2025,12/22/2025,4,53795,Government,Insurance,5,No
+284,P0284,28,Male,Navi Mumbai,Pediatrics,Dr. Iyer,Heart Disease,9/12/2025,9/23/2025,11,75962,Government,Cash,4.2,No
+285,P0285,67,Male,Mumbai,Orthopedics,Dr. Patil,Kidney Disease,12/30/2025,1/12/2026,13,106163,Self-Pay,Insurance,4,No
+286,P0286,35,Female,Nashik,General Medicine,Dr. Singh,Migraine,4/9/2025,4/10/2025,1,23103,Private,Insurance,4.4,No
+287,P0287,82,Male,Mumbai,Pediatrics,Dr. Shah,Diabetes,11/20/2025,11/21/2025,1,26841,Government,Card,4.3,No
+288,P0288,41,Female,Thane,Gastroenterology,Dr. Nair,Heart Disease,8/9/2025,8/13/2025,4,57718,Self-Pay,UPI,4.5,No
+289,P0289,71,Male,Mumbai,Pediatrics,Dr. Iyer,Migraine,10/30/2025,11/6/2025,7,53783,Self-Pay,Insurance,3.7,No
+290,P0290,28,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Pneumonia,11/20/2025,11/30/2025,10,88888,Self-Pay,Cash,1.6,No
+291,P0291,24,Male,Nashik,General Medicine,Dr. Gupta,Asthma,1/24/2025,2/3/2025,10,77349,Private,UPI,4.1,No
+292,P0292,62,Male,Thane,Oncology,Dr. Desai,Gastritis,6/18/2025,6/27/2025,9,113692,Self-Pay,UPI,4.7,No
+293,P0293,61,Female,Mumbai,Oncology,Dr. Desai,Pneumonia,7/31/2025,8/3/2025,3,84457,Private,Cash,3.6,No
+294,P0294,50,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Heart Disease,1/30/2025,2/13/2025,14,89612,Self-Pay,Card,3.3,No
+295,P0295,16,Female,Navi Mumbai,General Medicine,Dr. Singh,Fracture,1/22/2025,1/27/2025,5,41031,Government,UPI,3.6,No
+296,P0296,81,Female,Mumbai,Oncology,Dr. Desai,Fracture,5/19/2025,5/29/2025,10,123352,Self-Pay,Cash,4.2,No
+297,P0297,65,Male,Thane,Pediatrics,Dr. Iyer,Pneumonia,7/10/2025,7/19/2025,9,68479,Self-Pay,Cash,4.8,No
+298,P0298,81,Male,Mumbai,Oncology,Dr. Desai,Gastritis,9/8/2025,9/17/2025,9,133076,Self-Pay,Cash,4.7,No
+299,P0299,47,Female,Thane,General Medicine,Dr. Gupta,Hypertension,4/19/2025,4/26/2025,7,65046,Private,UPI,4.9,No
+300,P0300,35,Female,Navi Mumbai,Orthopedics,Dr. Joshi,Hypertension,3/19/2025,3/29/2025,10,72699,Private,UPI,1.6,No
+301,P0301,49,Female,Navi Mumbai,Oncology,Dr. Desai,Heart Disease,6/17/2025,6/20/2025,3,85696,Self-Pay,Insurance,4.5,No
+302,P0302,43,Female,Navi Mumbai,Gastroenterology,Dr. Nair,Asthma,3/30/2025,4/3/2025,4,54314,Private,Cash,4.3,No
+303,P0303,78,Female,Nashik,Gastroenterology,Dr. Nair,Pneumonia,4/24/2025,5/1/2025,7,76771,Self-Pay,Cash,3.5,No
+304,P0304,17,Female,Mumbai,Orthopedics,Dr. Joshi,Gastritis,4/7/2025,4/12/2025,5,50039,Self-Pay,Card,3.7,No
+305,P0305,66,Female,Nashik,Pediatrics,Dr. Shah,Asthma,2/16/2025,2/23/2025,7,56293,Private,Insurance,3.2,No
+306,P0306,74,Female,Nashik,Neurology,Dr. Khan,Cancer,12/27/2025,1/5/2026,9,65469,Government,Cash,4.4,Yes
+307,P0307,84,Female,Thane,Pediatrics,Dr. Iyer,Migraine,8/7/2025,8/8/2025,1,27999,Government,Card,5,No
+308,P0308,55,Male,Pune,Neurology,Dr. Khan,Fracture,10/22/2025,11/2/2025,11,104337,Self-Pay,UPI,4.1,No
+309,P0309,53,Male,Navi Mumbai,Neurology,Dr. Rao,Pneumonia,10/17/2025,10/23/2025,6,61758,Self-Pay,Insurance,4.8,No
+310,P0310,68,Female,Pune,Neurology,Dr. Khan,Kidney Disease,3/6/2025,3/9/2025,3,60233,Government,Card,4.7,Yes
+311,P0311,28,Male,Thane,Cardiology,Dr. Sharma,Migraine,10/28/2025,11/1/2025,4,65568,Government,Insurance,4.4,No
+312,P0312,74,Male,Mumbai,Oncology,Dr. Desai,Diabetes,10/10/2025,10/16/2025,6,107719,Self-Pay,UPI,4,No
+313,P0313,73,Male,Mumbai,General Medicine,Dr. Singh,Hypertension,9/5/2025,9/17/2025,12,95080,Private,UPI,4.9,No
+314,P0314,52,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Hypertension,2/16/2025,3/3/2025,15,127306,Private,Card,4.7,No
+315,P0315,58,Female,Navi Mumbai,Orthopedics,Dr. Joshi,Diabetes,6/10/2025,6/21/2025,11,84938,Self-Pay,Cash,4.5,No
+316,P0316,3,Male,Thane,Gastroenterology,Dr. Bhat,Migraine,12/24/2025,12/25/2025,1,28013,Private,Cash,3.8,No
+317,P0317,39,Female,Thane,Pediatrics,Dr. Iyer,Fracture,10/11/2025,10/12/2025,1,19840,Government,Insurance,4.7,No
+318,P0318,79,Female,Mumbai,Orthopedics,Dr. Patil,Diabetes,4/2/2025,4/4/2025,2,42953,Private,Insurance,3.8,No
+319,P0319,7,Female,Thane,Oncology,Dr. Kapoor,Fracture,3/2/2025,3/13/2025,11,128988,Private,Cash,3.5,No
+320,P0320,85,Male,Pune,Oncology,Dr. Kapoor,Kidney Disease,5/13/2025,5/14/2025,1,74809,Self-Pay,UPI,3.4,No
+321,P0321,1,Male,Nashik,General Medicine,Dr. Singh,Cancer,7/15/2025,7/27/2025,12,100248,Self-Pay,Card,3.1,No
+322,P0322,5,Male,Mumbai,Gastroenterology,Dr. Nair,Kidney Disease,2/5/2025,2/19/2025,14,87401,Private,Cash,3.1,No
+323,P0323,35,Male,Mumbai,Cardiology,Dr. Mehta,Gastritis,2/8/2025,2/14/2025,6,86562,Self-Pay,Card,4.6,No
+324,P0324,37,Male,Nashik,Cardiology,Dr. Sharma,Asthma,3/28/2025,4/10/2025,13,104949,Government,Cash,4.3,No
+325,P0325,18,Female,Thane,Oncology,Dr. Kapoor,Fracture,4/4/2025,4/10/2025,6,120216,Self-Pay,Insurance,5,No
+326,P0326,34,Male,Pune,Orthopedics,Dr. Joshi,Migraine,7/20/2025,7/30/2025,10,81570,Self-Pay,Cash,3.6,No
+327,P0327,33,Female,Nashik,Cardiology,Dr. Sharma,Kidney Disease,1/19/2025,1/22/2025,3,55792,Self-Pay,Cash,2.2,No
+328,P0328,64,Male,Nashik,Gastroenterology,Dr. Nair,Migraine,11/13/2025,11/26/2025,13,95382,Private,Card,4,No
+329,P0329,7,Male,Navi Mumbai,Cardiology,Dr. Sharma,Migraine,11/10/2025,11/11/2025,1,48512,Government,Insurance,4,No
+330,P0330,54,Female,Mumbai,Gastroenterology,Dr. Nair,Cancer,6/5/2025,6/14/2025,9,66027,Self-Pay,Insurance,3.5,No
+331,P0331,71,Female,Mumbai,Orthopedics,Dr. Joshi,Pneumonia,7/25/2025,8/7/2025,13,76111,Government,UPI,3.7,Yes
+332,P0332,66,Female,Pune,Gastroenterology,Dr. Bhat,Fracture,8/12/2025,8/20/2025,8,66283,Self-Pay,Insurance,2.2,No
+333,P0333,49,Female,Navi Mumbai,General Medicine,Dr. Singh,Diabetes,6/22/2025,6/24/2025,2,31389,Self-Pay,Card,2.7,No
+334,P0334,60,Female,Pune,General Medicine,Dr. Singh,Diabetes,11/27/2025,12/7/2025,10,58321,Government,Cash,4.4,No
+335,P0335,48,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Kidney Disease,5/16/2025,5/25/2025,9,65967,Private,UPI,4.5,No
+336,P0336,29,Female,Mumbai,Gastroenterology,Dr. Bhat,Gastritis,2/28/2025,3/7/2025,7,69505,Self-Pay,UPI,4.4,No
+337,P0337,64,Male,Navi Mumbai,Orthopedics,Dr. Patil,Kidney Disease,12/12/2025,12/16/2025,4,60100,Government,Insurance,3.3,No
+338,P0338,59,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Diabetes,11/9/2025,11/17/2025,8,67005,Self-Pay,Insurance,4.3,No
+339,P0339,2,Female,Mumbai,Cardiology,Dr. Mehta,Pneumonia,6/27/2025,7/9/2025,12,90170,Self-Pay,UPI,4.8,No
+340,P0340,61,Female,Nashik,Oncology,Dr. Desai,Heart Disease,5/9/2025,5/23/2025,14,120823,Self-Pay,UPI,4.4,No
+341,P0341,23,Male,Nashik,General Medicine,Dr. Gupta,Asthma,11/22/2025,11/30/2025,8,71003,Private,Insurance,3.3,Yes
+342,P0342,5,Female,Navi Mumbai,Orthopedics,Dr. Patil,Diabetes,11/12/2025,11/20/2025,8,91213,Self-Pay,Cash,2.6,No
+343,P0343,77,Male,Mumbai,Pulmonology,Dr. Kulkarni,Diabetes,8/18/2025,8/20/2025,2,35961,Self-Pay,Insurance,5,No
+344,P0344,21,Female,Mumbai,Orthopedics,Dr. Patil,Pneumonia,10/31/2025,11/5/2025,5,55003,Self-Pay,UPI,3.2,No
+345,P0345,58,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Heart Disease,12/21/2025,12/24/2025,3,54561,Government,Card,3.5,No
+346,P0346,25,Female,Nashik,Pediatrics,Dr. Shah,Migraine,10/3/2025,10/6/2025,3,25191,Self-Pay,UPI,3.9,No
+347,P0347,21,Male,Thane,Pediatrics,Dr. Shah,Asthma,9/25/2025,9/27/2025,2,22973,Self-Pay,UPI,4,No
+348,P0348,75,Male,Mumbai,Oncology,Dr. Kapoor,Heart Disease,10/4/2025,10/16/2025,12,142416,Government,Card,4.5,No
+349,P0349,65,Male,Thane,Oncology,Dr. Desai,Asthma,3/5/2025,3/12/2025,7,99861,Government,Insurance,3.7,No
+350,P0350,59,Male,Pune,Cardiology,Dr. Sharma,Cancer,2/12/2025,2/27/2025,15,104242,Government,Card,5,No
+351,P0351,66,Female,Pune,Pediatrics,Dr. Shah,Fracture,10/20/2025,10/21/2025,1,23980,Private,Insurance,5,No
+352,P0352,81,Female,Nashik,Neurology,Dr. Rao,Asthma,5/8/2025,5/12/2025,4,61881,Self-Pay,UPI,5,No
+353,P0353,27,Male,Mumbai,Gastroenterology,Dr. Bhat,Cancer,6/30/2025,7/7/2025,7,69419,Self-Pay,UPI,3.8,No
+354,P0354,20,Male,Navi Mumbai,Pediatrics,Dr. Iyer,Migraine,8/19/2025,8/24/2025,5,44915,Government,UPI,3.8,No
+355,P0355,71,Male,Mumbai,Neurology,Dr. Rao,Diabetes,12/30/2025,1/9/2026,10,78135,Self-Pay,Insurance,3.9,No
+356,P0356,64,Male,Pune,Orthopedics,Dr. Joshi,Cancer,4/3/2025,4/17/2025,14,80811,Private,Cash,3.5,No
+357,P0357,26,Female,Thane,Gastroenterology,Dr. Bhat,Diabetes,3/27/2025,3/31/2025,4,52474,Government,Insurance,4.6,No
+358,P0358,60,Male,Thane,Orthopedics,Dr. Joshi,Hypertension,12/9/2025,12/10/2025,1,38600,Private,Insurance,5,No
+359,P0359,22,Female,Navi Mumbai,Neurology,Dr. Khan,Pneumonia,3/30/2025,4/1/2025,2,53792,Private,Card,5,No
+360,P0360,73,Male,Thane,Pediatrics,Dr. Iyer,Fracture,11/28/2025,12/10/2025,12,61395,Self-Pay,UPI,4.3,No
+361,P0361,62,Male,Pune,General Medicine,Dr. Singh,Hypertension,12/31/2025,1/1/2026,1,22261,Self-Pay,Insurance,5,No
+362,P0362,32,Female,Navi Mumbai,Cardiology,Dr. Sharma,Fracture,7/6/2025,7/12/2025,6,61366,Private,Card,5,No
+363,P0363,22,Female,Navi Mumbai,Neurology,Dr. Rao,Fracture,4/6/2025,4/19/2025,13,105585,Self-Pay,Insurance,4.9,No
+364,P0364,31,Male,Nashik,Cardiology,Dr. Sharma,Heart Disease,12/15/2025,12/30/2025,15,90521,Government,Insurance,3.6,Yes
+365,P0365,22,Male,Nashik,Pulmonology,Dr. Verma,Kidney Disease,1/13/2025,1/26/2025,13,63622,Private,Insurance,3.6,No
+366,P0366,23,Male,Nashik,Neurology,Dr. Rao,Cancer,6/23/2025,7/1/2025,8,69249,Private,Insurance,4.3,No
+367,P0367,16,Male,Nashik,Cardiology,Dr. Sharma,Diabetes,1/2/2025,1/8/2025,6,68829,Self-Pay,Cash,4.8,No
+368,P0368,15,Female,Pune,Gastroenterology,Dr. Nair,Kidney Disease,7/20/2025,7/24/2025,4,53362,Government,Cash,3.7,Yes
+369,P0369,9,Female,Mumbai,Cardiology,Dr. Mehta,Hypertension,7/1/2025,7/16/2025,15,101291,Private,Card,3.5,No
+370,P0370,8,Male,Navi Mumbai,Cardiology,Dr. Sharma,Hypertension,3/13/2025,3/24/2025,11,111946,Self-Pay,Cash,4.5,No
+371,P0371,85,Male,Mumbai,Cardiology,Dr. Mehta,Migraine,12/7/2025,12/15/2025,8,82213,Private,UPI,3,No
+372,P0372,49,Female,Navi Mumbai,Orthopedics,Dr. Patil,Diabetes,5/29/2025,6/1/2025,3,53149,Private,Card,3.3,No
+373,P0373,28,Female,Mumbai,Orthopedics,Dr. Joshi,Heart Disease,2/7/2025,2/14/2025,7,85560,Private,Insurance,3.8,No
+374,P0374,83,Male,Pune,Pulmonology,Dr. Kulkarni,Pneumonia,7/5/2025,7/17/2025,12,91029,Government,Insurance,4.5,No
+375,P0375,27,Male,Thane,Oncology,Dr. Kapoor,Cancer,5/17/2025,6/1/2025,15,164485,Government,Card,3.5,No
+376,P0376,26,Male,Mumbai,Neurology,Dr. Khan,Pneumonia,12/26/2025,1/5/2026,10,111690,Self-Pay,UPI,2.6,Yes
+377,P0377,53,Male,Thane,General Medicine,Dr. Singh,Diabetes,2/13/2025,2/23/2025,10,74701,Government,UPI,4.8,No
+378,P0378,84,Male,Thane,Neurology,Dr. Khan,Heart Disease,4/26/2025,5/2/2025,6,74008,Government,Card,3.2,Yes
+379,P0379,46,Male,Pune,General Medicine,Dr. Singh,Cancer,1/25/2025,1/30/2025,5,41069,Self-Pay,Card,4.6,No
+380,P0380,23,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Cancer,7/11/2025,7/14/2025,3,28495,Private,Insurance,4.1,No
+381,P0381,53,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Cancer,11/7/2025,11/12/2025,5,41957,Self-Pay,Card,5,Yes
+382,P0382,72,Female,Thane,Pediatrics,Dr. Shah,Gastritis,8/8/2025,8/18/2025,10,44946,Self-Pay,UPI,4.4,No
+383,P0383,76,Male,Mumbai,General Medicine,Dr. Singh,Heart Disease,10/5/2025,10/13/2025,8,52696,Government,Card,4.3,No
+384,P0384,80,Female,Mumbai,Orthopedics,Dr. Patil,Hypertension,1/8/2025,1/22/2025,14,104359,Government,Cash,2.9,No
+385,P0385,14,Female,Nashik,Oncology,Dr. Desai,Fracture,8/27/2025,9/4/2025,8,126602,Government,Card,3.5,No
+386,P0386,34,Male,Thane,Cardiology,Dr. Sharma,Heart Disease,1/26/2025,2/10/2025,15,109070,Government,Insurance,4.6,No
+387,P0387,14,Male,Pune,Cardiology,Dr. Sharma,Migraine,1/13/2025,1/20/2025,7,95968,Self-Pay,Insurance,4.1,Yes
+388,P0388,44,Male,Pune,Neurology,Dr. Rao,Hypertension,12/26/2025,1/3/2026,8,96882,Private,Card,4.3,No
+389,P0389,14,Female,Navi Mumbai,Neurology,Dr. Rao,Asthma,8/27/2025,9/10/2025,14,89676,Government,Insurance,3.7,No
+390,P0390,43,Female,Pune,Gastroenterology,Dr. Nair,Migraine,6/8/2025,6/17/2025,9,60681,Self-Pay,UPI,3.6,No
+391,P0391,57,Female,Nashik,Neurology,Dr. Khan,Fracture,10/13/2025,10/23/2025,10,71886,Self-Pay,Cash,3.7,No
+392,P0392,56,Female,Thane,Oncology,Dr. Kapoor,Asthma,5/2/2025,5/15/2025,13,154790,Self-Pay,Insurance,4.9,No
+393,P0393,73,Male,Mumbai,Neurology,Dr. Rao,Asthma,8/17/2025,8/27/2025,10,72961,Self-Pay,Insurance,4.1,No
+394,P0394,83,Female,Navi Mumbai,Cardiology,Dr. Sharma,Fracture,8/2/2025,8/10/2025,8,99597,Private,UPI,4.7,Yes
+395,P0395,9,Female,Navi Mumbai,Neurology,Dr. Khan,Migraine,11/12/2025,11/24/2025,12,105316,Private,UPI,2.8,No
+396,P0396,30,Female,Thane,Pediatrics,Dr. Shah,Diabetes,10/8/2025,10/20/2025,12,81762,Private,Card,3.6,No
+397,P0397,41,Male,Nashik,Neurology,Dr. Rao,Pneumonia,1/25/2025,2/8/2025,14,81897,Self-Pay,UPI,3.7,Yes
+398,P0398,64,Female,Mumbai,Cardiology,Dr. Mehta,Gastritis,9/15/2025,9/27/2025,12,92921,Self-Pay,Card,3.6,No
+399,P0399,59,Male,Thane,Orthopedics,Dr. Patil,Gastritis,12/12/2025,12/18/2025,6,56010,Government,UPI,4.1,No
+400,P0400,79,Female,Nashik,Orthopedics,Dr. Patil,Migraine,3/13/2025,3/20/2025,7,80261,Government,UPI,3.6,Yes
+401,P0401,81,Female,Thane,Cardiology,Dr. Sharma,Cancer,10/19/2025,10/24/2025,5,62760,Self-Pay,Cash,3,No
+402,P0402,37,Female,Nashik,General Medicine,Dr. Gupta,Asthma,10/12/2025,10/15/2025,3,38094,Private,UPI,4.6,No
+403,P0403,29,Female,Nashik,Pulmonology,Dr. Kulkarni,Fracture,5/28/2025,6/6/2025,9,62152,Self-Pay,UPI,5,Yes
+404,P0404,43,Female,Mumbai,Neurology,Dr. Khan,Asthma,11/14/2025,11/20/2025,6,66177,Self-Pay,UPI,3.4,No
+405,P0405,70,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Gastritis,4/26/2025,5/11/2025,15,70737,Private,Card,3.3,Yes
+406,P0406,44,Female,Navi Mumbai,Neurology,Dr. Rao,Kidney Disease,10/17/2025,10/30/2025,13,100541,Private,Cash,4.1,No
+407,P0407,83,Female,Nashik,Pediatrics,Dr. Shah,Diabetes,4/5/2025,4/10/2025,5,45817,Self-Pay,UPI,5,No
+408,P0408,11,Male,Mumbai,Gastroenterology,Dr. Nair,Migraine,12/7/2025,12/11/2025,4,57297,Self-Pay,Insurance,3.3,No
+409,P0409,47,Female,Navi Mumbai,Gastroenterology,Dr. Nair,Migraine,6/30/2025,7/10/2025,10,70080,Private,Card,4.6,No
+410,P0410,16,Female,Thane,Neurology,Dr. Khan,Asthma,11/12/2025,11/18/2025,6,86609,Private,Cash,4.3,No
+411,P0411,42,Female,Thane,Gastroenterology,Dr. Nair,Fracture,10/30/2025,11/4/2025,5,49501,Government,Cash,4.3,Yes
+412,P0412,40,Female,Pune,Neurology,Dr. Rao,Kidney Disease,3/14/2025,3/26/2025,12,125265,Self-Pay,Insurance,3.5,Yes
+413,P0413,51,Male,Pune,Neurology,Dr. Khan,Cancer,5/4/2025,5/8/2025,4,60522,Private,UPI,3.7,No
+414,P0414,10,Female,Pune,Gastroenterology,Dr. Nair,Heart Disease,4/20/2025,5/4/2025,14,86495,Government,Insurance,4.9,No
+415,P0415,45,Male,Nashik,Oncology,Dr. Kapoor,Asthma,1/22/2025,2/5/2025,14,153175,Self-Pay,Insurance,4.8,No
+416,P0416,68,Female,Mumbai,Orthopedics,Dr. Patil,Pneumonia,5/29/2025,6/6/2025,8,82526,Private,UPI,4.8,Yes
+417,P0417,71,Female,Navi Mumbai,Oncology,Dr. Desai,Hypertension,2/15/2025,3/2/2025,15,131321,Government,UPI,4.2,Yes
+418,P0418,31,Male,Navi Mumbai,Orthopedics,Dr. Patil,Pneumonia,12/21/2025,12/22/2025,1,38791,Self-Pay,Cash,4.5,No
+419,P0419,70,Male,Navi Mumbai,Cardiology,Dr. Sharma,Diabetes,4/5/2025,4/11/2025,6,91075,Private,Card,3.8,Yes
+420,P0420,20,Male,Mumbai,Neurology,Dr. Rao,Hypertension,2/15/2025,2/18/2025,3,64695,Government,Cash,3.6,No
+421,P0421,8,Male,Pune,General Medicine,Dr. Gupta,Hypertension,1/29/2025,2/1/2025,3,34362,Self-Pay,Card,4.1,No
+422,P0422,45,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Gastritis,6/20/2025,7/3/2025,13,92278,Self-Pay,Insurance,3.3,No
+423,P0423,42,Female,Navi Mumbai,General Medicine,Dr. Gupta,Kidney Disease,12/12/2025,12/15/2025,3,32768,Self-Pay,UPI,4.6,No
+424,P0424,11,Female,Pune,Pulmonology,Dr. Kulkarni,Fracture,6/3/2025,6/13/2025,10,89284,Government,Cash,3.5,No
+425,P0425,65,Male,Pune,Neurology,Dr. Rao,Cancer,12/21/2025,12/29/2025,8,81115,Private,Insurance,3.4,No
+426,P0426,12,Male,Nashik,Neurology,Dr. Rao,Heart Disease,2/20/2025,2/25/2025,5,72097,Private,Cash,5,No
+427,P0427,57,Female,Mumbai,Oncology,Dr. Kapoor,Asthma,4/26/2025,5/2/2025,6,97187,Self-Pay,Cash,3.8,No
+428,P0428,28,Male,Pune,Pulmonology,Dr. Kulkarni,Gastritis,8/23/2025,9/7/2025,15,85569,Government,Card,5,No
+429,P0429,17,Female,Pune,Orthopedics,Dr. Joshi,Asthma,7/27/2025,8/10/2025,14,114076,Government,Card,2.7,No
+430,P0430,7,Male,Nashik,Gastroenterology,Dr. Nair,Diabetes,10/5/2025,10/6/2025,1,39309,Government,Card,3.1,No
+431,P0431,33,Female,Mumbai,Orthopedics,Dr. Joshi,Heart Disease,1/1/2025,1/13/2025,12,83653,Self-Pay,Card,4.1,No
+432,P0432,61,Male,Navi Mumbai,Neurology,Dr. Khan,Cancer,10/18/2025,10/26/2025,8,89739,Self-Pay,Insurance,3.7,No
+433,P0433,18,Female,Thane,Oncology,Dr. Desai,Pneumonia,6/5/2025,6/17/2025,12,114050,Self-Pay,Cash,5,No
+434,P0434,30,Female,Thane,General Medicine,Dr. Gupta,Diabetes,10/5/2025,10/16/2025,11,70616,Private,UPI,2.9,No
+435,P0435,1,Male,Mumbai,Pulmonology,Dr. Verma,Kidney Disease,12/12/2025,12/19/2025,7,75773,Government,Cash,4.3,No
+436,P0436,12,Male,Nashik,Neurology,Dr. Khan,Migraine,4/28/2025,5/12/2025,14,83925,Private,UPI,2.2,Yes
+437,P0437,15,Female,Nashik,Oncology,Dr. Desai,Migraine,9/15/2025,9/19/2025,4,95995,Government,Cash,4.1,No
+438,P0438,11,Female,Thane,General Medicine,Dr. Singh,Diabetes,3/9/2025,3/20/2025,11,89605,Self-Pay,Card,3.6,No
+439,P0439,57,Male,Nashik,Neurology,Dr. Khan,Migraine,3/26/2025,4/2/2025,7,70960,Self-Pay,Cash,4.4,No
+440,P0440,59,Male,Navi Mumbai,Neurology,Dr. Khan,Migraine,11/26/2025,12/7/2025,11,76133,Self-Pay,Card,3.1,No
+441,P0441,79,Male,Pune,General Medicine,Dr. Singh,Fracture,2/4/2025,2/10/2025,6,42938,Self-Pay,Cash,3.8,No
+442,P0442,8,Male,Nashik,Orthopedics,Dr. Patil,Pneumonia,12/9/2025,12/22/2025,13,119119,Private,UPI,4.4,No
+443,P0443,41,Male,Mumbai,Pulmonology,Dr. Verma,Hypertension,10/5/2025,10/13/2025,8,70944,Government,Insurance,4.6,No
+444,P0444,60,Female,Nashik,Cardiology,Dr. Sharma,Gastritis,6/3/2025,6/17/2025,14,88802,Self-Pay,Cash,2.8,Yes
+445,P0445,13,Male,Mumbai,Neurology,Dr. Rao,Diabetes,2/12/2025,2/26/2025,14,120552,Private,Insurance,4.8,No
+446,P0446,67,Male,Pune,Oncology,Dr. Desai,Migraine,1/6/2025,1/14/2025,8,121892,Government,Card,5,No
+447,P0447,66,Female,Nashik,Pulmonology,Dr. Kulkarni,Diabetes,10/28/2025,10/30/2025,2,38148,Private,Cash,4.7,No
+448,P0448,23,Male,Navi Mumbai,Orthopedics,Dr. Patil,Migraine,10/2/2025,10/4/2025,2,48585,Self-Pay,Insurance,4.3,No
+449,P0449,49,Female,Pune,Pediatrics,Dr. Iyer,Pneumonia,2/6/2025,2/16/2025,10,41862,Self-Pay,Insurance,5,No
+450,P0450,72,Male,Mumbai,Pediatrics,Dr. Iyer,Migraine,8/24/2025,8/31/2025,7,47507,Private,Cash,3.7,No
+451,P0451,64,Male,Mumbai,Oncology,Dr. Desai,Migraine,12/9/2025,12/20/2025,11,113806,Self-Pay,UPI,3.9,No
+452,P0452,44,Female,Navi Mumbai,Orthopedics,Dr. Patil,Cancer,3/29/2025,4/1/2025,3,44797,Government,UPI,4.4,No
+453,P0453,57,Female,Nashik,Cardiology,Dr. Sharma,Kidney Disease,10/14/2025,10/19/2025,5,81614,Private,Insurance,3.9,No
+454,P0454,25,Female,Nashik,Cardiology,Dr. Mehta,Gastritis,2/27/2025,3/1/2025,2,65956,Self-Pay,Card,3.3,No
+455,P0455,3,Female,Mumbai,Neurology,Dr. Rao,Cancer,12/21/2025,12/22/2025,1,47820,Private,Cash,2.5,No
+456,P0456,16,Male,Thane,Cardiology,Dr. Mehta,Pneumonia,8/14/2025,8/27/2025,13,124900,Self-Pay,Card,4.8,No
+457,P0457,45,Female,Pune,Neurology,Dr. Khan,Kidney Disease,5/14/2025,5/19/2025,5,57668,Private,Cash,4.6,No
+458,P0458,4,Male,Navi Mumbai,Pulmonology,Dr. Verma,Gastritis,7/10/2025,7/18/2025,8,79792,Private,Insurance,4.5,No
+459,P0459,5,Male,Mumbai,Pediatrics,Dr. Shah,Diabetes,10/3/2025,10/18/2025,15,60671,Government,Cash,3.4,Yes
+460,P0460,42,Female,Pune,Orthopedics,Dr. Patil,Heart Disease,6/13/2025,6/21/2025,8,90960,Self-Pay,UPI,4.5,No
+461,P0461,85,Female,Mumbai,Gastroenterology,Dr. Bhat,Kidney Disease,5/31/2025,6/13/2025,13,60058,Private,Card,4.5,No
+462,P0462,70,Female,Navi Mumbai,Cardiology,Dr. Sharma,Pneumonia,7/14/2025,7/24/2025,10,108737,Self-Pay,Card,4.7,No
+463,P0463,16,Male,Pune,Pulmonology,Dr. Kulkarni,Asthma,8/4/2025,8/13/2025,9,79586,Self-Pay,Card,4.8,Yes
+464,P0464,16,Female,Navi Mumbai,Orthopedics,Dr. Patil,Cancer,4/21/2025,4/27/2025,6,70723,Government,Cash,3.5,No
+465,P0465,77,Male,Mumbai,Pulmonology,Dr. Verma,Kidney Disease,1/7/2025,1/18/2025,11,87714,Self-Pay,Cash,4.3,No
+466,P0466,75,Female,Nashik,Oncology,Dr. Kapoor,Pneumonia,1/26/2025,2/10/2025,15,170294,Government,UPI,3.4,No
+467,P0467,21,Male,Nashik,Neurology,Dr. Rao,Migraine,2/23/2025,3/3/2025,8,72671,Self-Pay,Insurance,4.6,Yes
+468,P0468,68,Male,Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,2/4/2025,2/15/2025,11,98999,Self-Pay,Insurance,3.7,Yes
+469,P0469,44,Male,Nashik,Oncology,Dr. Desai,Kidney Disease,3/28/2025,4/6/2025,9,109515,Self-Pay,Insurance,4.1,No
+470,P0470,14,Female,Thane,Pulmonology,Dr. Kulkarni,Hypertension,9/10/2025,9/23/2025,13,109042,Government,Card,5,Yes
+471,P0471,79,Female,Nashik,Neurology,Dr. Khan,Diabetes,3/11/2025,3/22/2025,11,95677,Government,Insurance,4.7,No
+472,P0472,1,Male,Nashik,Cardiology,Dr. Sharma,Gastritis,2/3/2025,2/17/2025,14,106211,Private,Card,5,No
+473,P0473,54,Male,Nashik,Oncology,Dr. Kapoor,Gastritis,7/28/2025,8/2/2025,5,112052,Government,Card,2.9,No
+474,P0474,43,Female,Mumbai,Gastroenterology,Dr. Nair,Migraine,9/30/2025,10/10/2025,10,90846,Self-Pay,Cash,2.7,No
+475,P0475,20,Male,Pune,Pediatrics,Dr. Shah,Gastritis,1/16/2025,1/19/2025,3,41007,Government,Insurance,4.8,Yes
+476,P0476,34,Male,Pune,Oncology,Dr. Kapoor,Hypertension,6/6/2025,6/12/2025,6,106348,Private,Card,4,No
+477,P0477,59,Male,Navi Mumbai,Orthopedics,Dr. Patil,Kidney Disease,2/1/2025,2/2/2025,1,37138,Self-Pay,Cash,4.9,No
+478,P0478,79,Female,Pune,Neurology,Dr. Khan,Fracture,5/26/2025,6/2/2025,7,70095,Self-Pay,UPI,3.7,No
+479,P0479,7,Male,Nashik,Gastroenterology,Dr. Bhat,Fracture,10/23/2025,10/29/2025,6,59654,Government,Card,3.8,No
+480,P0480,47,Female,Navi Mumbai,Cardiology,Dr. Sharma,Pneumonia,11/28/2025,12/8/2025,10,108841,Government,Insurance,4.6,No
+481,P0481,24,Female,Nashik,Cardiology,Dr. Mehta,Gastritis,3/24/2025,3/30/2025,6,73695,Self-Pay,Cash,2.7,No
+482,P0482,65,Female,Mumbai,Neurology,Dr. Rao,Diabetes,1/31/2025,2/14/2025,14,131933,Self-Pay,Card,3.1,No
+483,P0483,67,Female,Pune,Gastroenterology,Dr. Bhat,Pneumonia,2/25/2025,3/4/2025,7,59005,Self-Pay,Cash,3.9,No
+484,P0484,26,Male,Mumbai,Oncology,Dr. Kapoor,Hypertension,12/2/2025,12/14/2025,12,144781,Self-Pay,UPI,3.1,No
+485,P0485,53,Female,Thane,Pulmonology,Dr. Kulkarni,Diabetes,11/23/2025,12/5/2025,12,77739,Government,Cash,3.8,No
+486,P0486,12,Female,Navi Mumbai,Cardiology,Dr. Sharma,Gastritis,11/22/2025,11/28/2025,6,61205,Government,Card,5,Yes
+487,P0487,23,Male,Nashik,Pediatrics,Dr. Shah,Migraine,1/23/2025,2/2/2025,10,75247,Government,UPI,4.6,Yes
+488,P0488,80,Male,Navi Mumbai,Neurology,Dr. Khan,Migraine,3/28/2025,4/3/2025,6,74103,Self-Pay,Cash,4.3,No
+489,P0489,41,Male,Nashik,Neurology,Dr. Khan,Migraine,6/18/2025,6/25/2025,7,77915,Government,Insurance,4.8,Yes
+490,P0490,10,Female,Mumbai,Gastroenterology,Dr. Bhat,Diabetes,3/12/2025,3/22/2025,10,68741,Private,Card,4.3,No
+491,P0491,42,Female,Navi Mumbai,Orthopedics,Dr. Patil,Cancer,11/3/2025,11/15/2025,12,71228,Government,Card,5,No
+492,P0492,36,Female,Mumbai,Neurology,Dr. Khan,Gastritis,4/24/2025,5/1/2025,7,83231,Private,Insurance,4.1,No
+493,P0493,38,Male,Pune,Orthopedics,Dr. Patil,Cancer,2/10/2025,2/23/2025,13,125197,Private,Cash,4,Yes
+494,P0494,40,Male,Thane,Pediatrics,Dr. Iyer,Heart Disease,7/22/2025,7/27/2025,5,27271,Government,Insurance,3.8,Yes
+495,P0495,45,Female,Mumbai,General Medicine,Dr. Singh,Gastritis,3/23/2025,3/24/2025,1,22089,Private,UPI,5,No
+496,P0496,19,Male,Thane,Orthopedics,Dr. Patil,Kidney Disease,12/12/2025,12/16/2025,4,44861,Private,UPI,4,No
+497,P0497,42,Male,Pune,Neurology,Dr. Khan,Hypertension,10/2/2025,10/3/2025,1,45539,Private,Card,3.4,No
+498,P0498,46,Female,Thane,Pulmonology,Dr. Kulkarni,Fracture,12/22/2025,12/30/2025,8,60920,Private,UPI,2.7,Yes
+499,P0499,16,Male,Pune,General Medicine,Dr. Gupta,Gastritis,5/28/2025,6/4/2025,7,42712,Self-Pay,UPI,3.5,No
+500,P0500,26,Male,Thane,General Medicine,Dr. Gupta,Hypertension,1/2/2025,1/16/2025,14,69107,Government,Cash,3.3,No
+501,P0501,40,Female,Pune,General Medicine,Dr. Gupta,Gastritis,3/7/2025,3/17/2025,10,52296,Self-Pay,Card,4.7,No
+502,P0502,12,Female,Nashik,Orthopedics,Dr. Patil,Asthma,10/23/2025,10/25/2025,2,37985,Government,Card,4.3,No
+503,P0503,22,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Asthma,1/18/2025,1/30/2025,12,95981,Government,Insurance,2.8,No
+504,P0504,48,Male,Nashik,Orthopedics,Dr. Patil,Heart Disease,5/15/2025,5/26/2025,11,71541,Private,Cash,5,No
+505,P0505,70,Male,Thane,Pulmonology,Dr. Verma,Heart Disease,1/17/2025,1/27/2025,10,70800,Government,Insurance,4.8,No
+506,P0506,34,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Kidney Disease,6/18/2025,6/28/2025,10,83328,Private,Insurance,4.1,No
+507,P0507,42,Female,Nashik,Pulmonology,Dr. Kulkarni,Heart Disease,12/20/2025,12/30/2025,10,100378,Self-Pay,UPI,4.1,No
+508,P0508,12,Female,Nashik,Pulmonology,Dr. Verma,Cancer,11/25/2025,11/27/2025,2,44223,Private,Card,4.1,No
+509,P0509,14,Female,Nashik,General Medicine,Dr. Singh,Diabetes,8/28/2025,9/3/2025,6,36850,Government,Insurance,3.8,No
+510,P0510,62,Female,Nashik,Neurology,Dr. Khan,Diabetes,5/25/2025,5/28/2025,3,50939,Government,Cash,4.6,Yes
+511,P0511,39,Female,Mumbai,Cardiology,Dr. Mehta,Diabetes,10/16/2025,10/27/2025,11,107989,Government,Insurance,4.8,Yes
+512,P0512,25,Male,Mumbai,Neurology,Dr. Rao,Diabetes,11/27/2025,12/4/2025,7,53984,Private,Card,3.9,No
+513,P0513,33,Female,Nashik,Neurology,Dr. Khan,Asthma,8/17/2025,8/19/2025,2,52278,Government,Insurance,5,No
+514,P0514,52,Male,Mumbai,Pediatrics,Dr. Iyer,Diabetes,6/26/2025,7/7/2025,11,76562,Government,UPI,5,No
+515,P0515,19,Female,Nashik,Neurology,Dr. Khan,Fracture,10/6/2025,10/17/2025,11,104559,Self-Pay,Cash,4.6,No
+516,P0516,58,Male,Nashik,Orthopedics,Dr. Joshi,Diabetes,9/7/2025,9/22/2025,15,113901,Government,Insurance,4,No
+517,P0517,7,Male,Thane,Neurology,Dr. Khan,Cancer,10/9/2025,10/19/2025,10,67837,Private,Cash,3.7,No
+518,P0518,50,Male,Pune,Pediatrics,Dr. Iyer,Cancer,5/23/2025,6/2/2025,10,58139,Private,Card,4.3,No
+519,P0519,11,Male,Nashik,Cardiology,Dr. Mehta,Heart Disease,4/18/2025,4/28/2025,10,116776,Self-Pay,UPI,2.9,No
+520,P0520,61,Female,Mumbai,Gastroenterology,Dr. Bhat,Cancer,9/12/2025,9/16/2025,4,59255,Private,Card,3.8,No
+521,P0521,28,Female,Navi Mumbai,General Medicine,Dr. Gupta,Heart Disease,11/8/2025,11/11/2025,3,28964,Government,Card,3.8,No
+522,P0522,33,Female,Navi Mumbai,General Medicine,Dr. Singh,Gastritis,3/12/2025,3/20/2025,8,45956,Private,UPI,3.1,No
+523,P0523,5,Female,Thane,Oncology,Dr. Desai,Fracture,8/9/2025,8/12/2025,3,93275,Private,UPI,4.9,No
+524,P0524,53,Male,Pune,Cardiology,Dr. Sharma,Pneumonia,5/26/2025,6/6/2025,11,120918,Private,Cash,4.6,No
+525,P0525,50,Female,Thane,Pulmonology,Dr. Verma,Kidney Disease,7/26/2025,8/7/2025,12,102615,Private,Insurance,3.5,No
+526,P0526,35,Male,Mumbai,Orthopedics,Dr. Patil,Fracture,6/23/2025,7/3/2025,10,65353,Self-Pay,UPI,3.3,Yes
+527,P0527,31,Male,Navi Mumbai,Neurology,Dr. Khan,Diabetes,6/17/2025,6/20/2025,3,66557,Government,Insurance,2.5,No
+528,P0528,67,Male,Pune,Oncology,Dr. Kapoor,Fracture,8/2/2025,8/3/2025,1,84509,Self-Pay,Cash,3.6,No
+529,P0529,44,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Fracture,7/5/2025,7/12/2025,7,79987,Government,Cash,2.7,No
+530,P0530,62,Male,Pune,Neurology,Dr. Rao,Asthma,12/22/2025,12/26/2025,4,45436,Private,Insurance,4.1,No
+531,P0531,66,Female,Navi Mumbai,Orthopedics,Dr. Joshi,Kidney Disease,11/21/2025,11/28/2025,7,72910,Self-Pay,Cash,3.7,No
+532,P0532,78,Male,Pune,Gastroenterology,Dr. Nair,Heart Disease,3/26/2025,4/9/2025,14,117184,Private,Insurance,3.9,No
+533,P0533,63,Male,Thane,Oncology,Dr. Desai,Diabetes,5/27/2025,5/31/2025,4,88144,Self-Pay,Cash,4,No
+534,P0534,80,Male,Pune,General Medicine,Dr. Singh,Migraine,11/8/2025,11/22/2025,14,101213,Private,Insurance,2.8,No
+535,P0535,47,Male,Nashik,Pediatrics,Dr. Iyer,Pneumonia,7/17/2025,7/26/2025,9,53195,Government,Cash,3.4,No
+536,P0536,52,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Diabetes,6/21/2025,7/4/2025,13,115479,Private,Cash,4.1,No
+537,P0537,73,Male,Pune,Cardiology,Dr. Sharma,Diabetes,12/3/2025,12/16/2025,13,114040,Private,Cash,4.5,No
+538,P0538,2,Female,Navi Mumbai,Orthopedics,Dr. Patil,Asthma,3/4/2025,3/18/2025,14,99438,Self-Pay,Cash,5,No
+539,P0539,40,Female,Thane,Pulmonology,Dr. Kulkarni,Asthma,7/16/2025,7/30/2025,14,109374,Private,UPI,4.2,No
+540,P0540,17,Female,Mumbai,General Medicine,Dr. Gupta,Pneumonia,10/13/2025,10/21/2025,8,39400,Self-Pay,Insurance,2.9,No
+541,P0541,35,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,8/2/2025,8/13/2025,11,65981,Government,UPI,4.4,No
+542,P0542,18,Female,Thane,General Medicine,Dr. Gupta,Diabetes,1/27/2025,2/8/2025,12,65392,Self-Pay,Insurance,3.5,No
+543,P0543,38,Male,Pune,Neurology,Dr. Rao,Cancer,7/20/2025,8/3/2025,14,101382,Government,UPI,4.5,No
+544,P0544,31,Male,Mumbai,Oncology,Dr. Kapoor,Fracture,10/6/2025,10/10/2025,4,97691,Self-Pay,Cash,3.8,No
+545,P0545,5,Female,Pune,Pulmonology,Dr. Kulkarni,Kidney Disease,4/18/2025,4/20/2025,2,39285,Government,Cash,4,No
+546,P0546,62,Female,Thane,General Medicine,Dr. Singh,Pneumonia,10/24/2025,11/8/2025,15,85728,Government,Cash,4.3,No
+547,P0547,34,Male,Navi Mumbai,Neurology,Dr. Khan,Fracture,2/13/2025,2/28/2025,15,132097,Private,Insurance,4.3,No
+548,P0548,17,Female,Mumbai,Pediatrics,Dr. Iyer,Cancer,1/7/2025,1/20/2025,13,104532,Government,UPI,3.9,Yes
+549,P0549,74,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Pneumonia,8/7/2025,8/20/2025,13,110111,Self-Pay,Insurance,3,No
+550,P0550,40,Male,Thane,General Medicine,Dr. Singh,Fracture,11/20/2025,12/4/2025,14,78098,Private,Cash,2.5,Yes
+551,P0551,52,Male,Nashik,General Medicine,Dr. Gupta,Kidney Disease,12/14/2025,12/25/2025,11,78473,Self-Pay,UPI,4.8,No
+552,P0552,11,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Cancer,11/23/2025,11/28/2025,5,49090,Private,UPI,5,No
+553,P0553,70,Male,Nashik,Pediatrics,Dr. Iyer,Asthma,10/24/2025,11/8/2025,15,87605,Self-Pay,Card,3.8,Yes
+554,P0554,70,Male,Nashik,Pediatrics,Dr. Shah,Fracture,6/15/2025,6/17/2025,2,26518,Private,Cash,2.8,No
+555,P0555,22,Male,Thane,General Medicine,Dr. Singh,Heart Disease,4/24/2025,5/9/2025,15,99023,Self-Pay,Card,3.5,No
+556,P0556,44,Female,Pune,Orthopedics,Dr. Joshi,Hypertension,3/23/2025,3/30/2025,7,62762,Government,Card,4.2,No
+557,P0557,80,Male,Thane,Pediatrics,Dr. Shah,Migraine,11/11/2025,11/16/2025,5,39157,Self-Pay,Card,3.5,Yes
+558,P0558,59,Female,Thane,Pulmonology,Dr. Verma,Migraine,2/7/2025,2/12/2025,5,49316,Self-Pay,UPI,4.1,No
+559,P0559,54,Female,Navi Mumbai,Cardiology,Dr. Mehta,Pneumonia,5/5/2025,5/15/2025,10,113659,Self-Pay,Card,2.8,Yes
+560,P0560,63,Female,Navi Mumbai,Orthopedics,Dr. Patil,Migraine,4/9/2025,4/12/2025,3,58900,Self-Pay,UPI,3.3,No
+561,P0561,64,Male,Mumbai,Neurology,Dr. Rao,Diabetes,3/10/2025,3/19/2025,9,94720,Self-Pay,Card,3.5,No
+562,P0562,61,Female,Mumbai,Pediatrics,Dr. Iyer,Kidney Disease,12/12/2025,12/18/2025,6,48719,Private,UPI,2.9,No
+563,P0563,13,Female,Mumbai,General Medicine,Dr. Singh,Heart Disease,7/27/2025,8/3/2025,7,43953,Self-Pay,Insurance,3.6,No
+564,P0564,71,Male,Pune,Gastroenterology,Dr. Nair,Heart Disease,11/16/2025,11/22/2025,6,51852,Government,Card,4.5,No
+565,P0565,9,Male,Mumbai,Pulmonology,Dr. Kulkarni,Kidney Disease,9/28/2025,10/12/2025,14,93946,Private,Insurance,4.4,No
+566,P0566,48,Male,Nashik,Oncology,Dr. Kapoor,Heart Disease,6/15/2025,6/30/2025,15,146772,Government,Cash,4.3,No
+567,P0567,43,Female,Thane,Orthopedics,Dr. Patil,Migraine,8/8/2025,8/16/2025,8,71604,Private,Cash,4.2,No
+568,P0568,1,Male,Nashik,Pediatrics,Dr. Shah,Kidney Disease,3/28/2025,4/7/2025,10,49230,Government,Card,4.5,Yes
+569,P0569,58,Male,Mumbai,Pediatrics,Dr. Iyer,Diabetes,3/23/2025,3/30/2025,7,56206,Private,UPI,4.4,No
+570,P0570,3,Female,Thane,Cardiology,Dr. Sharma,Cancer,2/15/2025,2/22/2025,7,83441,Self-Pay,Insurance,4.3,No
+571,P0571,80,Male,Nashik,General Medicine,Dr. Gupta,Hypertension,1/16/2025,1/27/2025,11,58799,Self-Pay,Cash,5,No
+572,P0572,82,Female,Mumbai,Neurology,Dr. Khan,Kidney Disease,4/13/2025,4/22/2025,9,92175,Government,Cash,4.4,No
+573,P0573,79,Male,Mumbai,Pediatrics,Dr. Iyer,Migraine,1/2/2025,1/11/2025,9,70158,Self-Pay,Insurance,5,No
+574,P0574,36,Female,Navi Mumbai,Oncology,Dr. Kapoor,Pneumonia,8/5/2025,8/15/2025,10,122588,Private,Insurance,4.3,Yes
+575,P0575,36,Male,Pune,Pediatrics,Dr. Shah,Asthma,3/9/2025,3/13/2025,4,44737,Self-Pay,UPI,4.9,No
+576,P0576,54,Female,Navi Mumbai,Pulmonology,Dr. Verma,Hypertension,3/31/2025,4/5/2025,5,44657,Private,UPI,3.1,No
+577,P0577,58,Male,Pune,Neurology,Dr. Khan,Gastritis,1/2/2025,1/5/2025,3,62708,Self-Pay,Cash,3.8,No
+578,P0578,32,Female,Pune,Cardiology,Dr. Mehta,Hypertension,3/15/2025,3/26/2025,11,80191,Government,Cash,4.5,No
+579,P0579,29,Male,Pune,Oncology,Dr. Desai,Gastritis,4/24/2025,5/8/2025,14,129026,Self-Pay,Insurance,3.2,No
+580,P0580,3,Female,Thane,Orthopedics,Dr. Joshi,Kidney Disease,4/24/2025,5/8/2025,14,71615,Self-Pay,Insurance,4.7,Yes
+581,P0581,57,Female,Nashik,Neurology,Dr. Rao,Hypertension,7/15/2025,7/22/2025,7,61380,Self-Pay,Cash,4,No
+582,P0582,32,Male,Thane,Cardiology,Dr. Mehta,Pneumonia,10/16/2025,10/30/2025,14,89735,Private,Cash,4.6,No
+583,P0583,26,Male,Pune,Oncology,Dr. Desai,Asthma,3/3/2025,3/6/2025,3,94134,Self-Pay,Insurance,3.6,Yes
+584,P0584,82,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Heart Disease,11/29/2025,12/13/2025,14,61927,Self-Pay,Cash,4.6,No
+585,P0585,30,Female,Thane,Neurology,Dr. Khan,Fracture,3/12/2025,3/27/2025,15,93509,Private,Card,4.7,No
+586,P0586,66,Female,Pune,General Medicine,Dr. Singh,Diabetes,1/11/2025,1/18/2025,7,58223,Government,Cash,4.3,No
+587,P0587,30,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Gastritis,9/21/2025,9/23/2025,2,50396,Self-Pay,UPI,4.4,No
+588,P0588,26,Male,Pune,Gastroenterology,Dr. Bhat,Pneumonia,1/27/2025,2/10/2025,14,92979,Private,Cash,3.4,Yes
+589,P0589,83,Male,Nashik,Orthopedics,Dr. Patil,Migraine,4/7/2025,4/22/2025,15,135071,Private,Card,3.7,No
+590,P0590,79,Female,Thane,Pediatrics,Dr. Iyer,Hypertension,9/26/2025,10/8/2025,12,73545,Private,UPI,3.3,No
+591,P0591,48,Male,Mumbai,Cardiology,Dr. Mehta,Diabetes,8/29/2025,9/4/2025,6,75141,Government,Cash,3.8,No
+592,P0592,29,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Fracture,7/5/2025,7/11/2025,6,53372,Self-Pay,Insurance,5,No
+593,P0593,50,Male,Nashik,Pulmonology,Dr. Kulkarni,Heart Disease,3/30/2025,4/12/2025,13,77445,Government,UPI,3.8,No
+594,P0594,35,Female,Mumbai,Neurology,Dr. Rao,Kidney Disease,8/18/2025,8/21/2025,3,58147,Self-Pay,UPI,3.9,No
+595,P0595,73,Male,Mumbai,Neurology,Dr. Khan,Gastritis,5/13/2025,5/16/2025,3,49616,Government,Cash,4.7,No
+596,P0596,48,Female,Nashik,Pediatrics,Dr. Iyer,Fracture,1/24/2025,1/27/2025,3,30991,Self-Pay,Insurance,5,No
+597,P0597,60,Female,Navi Mumbai,Oncology,Dr. Desai,Gastritis,12/17/2025,12/27/2025,10,103819,Government,Cash,3.1,Yes
+598,P0598,78,Male,Nashik,Orthopedics,Dr. Joshi,Hypertension,9/13/2025,9/22/2025,9,73309,Private,Cash,3.1,No
+599,P0599,70,Female,Nashik,Pediatrics,Dr. Shah,Hypertension,2/13/2025,2/17/2025,4,43410,Private,Cash,4.3,No
+600,P0600,66,Female,Navi Mumbai,Orthopedics,Dr. Patil,Hypertension,8/4/2025,8/19/2025,15,128451,Self-Pay,Cash,4.4,No
+601,P0601,27,Female,Nashik,Neurology,Dr. Rao,Migraine,8/15/2025,8/17/2025,2,60188,Government,Insurance,4.3,No
+602,P0602,2,Male,Navi Mumbai,Neurology,Dr. Khan,Fracture,5/1/2025,5/11/2025,10,85224,Private,Cash,3.9,No
+603,P0603,48,Female,Navi Mumbai,Orthopedics,Dr. Joshi,Pneumonia,11/9/2025,11/12/2025,3,63127,Private,Insurance,2.9,Yes
+604,P0604,33,Female,Pune,Pulmonology,Dr. Verma,Diabetes,7/19/2025,7/27/2025,8,55387,Private,Cash,4.4,No
+605,P0605,46,Male,Pune,Neurology,Dr. Khan,Cancer,9/13/2025,9/27/2025,14,113311,Self-Pay,Insurance,4.3,Yes
+606,P0606,36,Male,Thane,Neurology,Dr. Khan,Fracture,11/15/2025,11/20/2025,5,72221,Self-Pay,Insurance,3.5,No
+607,P0607,60,Male,Navi Mumbai,Neurology,Dr. Khan,Kidney Disease,11/7/2025,11/10/2025,3,67092,Private,Card,5,No
+608,P0608,20,Male,Thane,Oncology,Dr. Desai,Heart Disease,6/7/2025,6/10/2025,3,92869,Private,Cash,4,No
+609,P0609,54,Female,Nashik,Gastroenterology,Dr. Nair,Fracture,1/17/2025,1/20/2025,3,41281,Self-Pay,UPI,2.5,Yes
+610,P0610,61,Female,Pune,Gastroenterology,Dr. Bhat,Hypertension,9/10/2025,9/24/2025,14,81907,Self-Pay,Cash,3.9,No
+611,P0611,43,Male,Navi Mumbai,Pediatrics,Dr. Iyer,Gastritis,8/16/2025,8/17/2025,1,21957,Government,UPI,3.5,No
+612,P0612,1,Male,Thane,Cardiology,Dr. Sharma,Diabetes,4/11/2025,4/17/2025,6,88642,Government,UPI,4.5,No
+613,P0613,31,Female,Nashik,Oncology,Dr. Desai,Kidney Disease,11/11/2025,11/26/2025,15,148493,Self-Pay,Card,2.9,Yes
+614,P0614,59,Male,Pune,Orthopedics,Dr. Patil,Diabetes,10/15/2025,10/19/2025,4,61829,Self-Pay,Insurance,4.1,No
+615,P0615,54,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,12/28/2025,1/3/2026,6,53507,Self-Pay,UPI,4.4,No
+616,P0616,37,Female,Pune,Orthopedics,Dr. Patil,Kidney Disease,1/29/2025,1/31/2025,2,45071,Government,Card,4.4,No
+617,P0617,59,Female,Thane,Oncology,Dr. Desai,Cancer,3/31/2025,4/3/2025,3,89777,Self-Pay,Cash,4.2,No
+618,P0618,63,Male,Mumbai,Orthopedics,Dr. Patil,Pneumonia,12/30/2025,1/11/2026,12,84597,Private,Card,4.3,No
+619,P0619,83,Female,Pune,Orthopedics,Dr. Patil,Heart Disease,2/17/2025,2/23/2025,6,76189,Government,Insurance,3.3,No
+620,P0620,35,Male,Thane,Cardiology,Dr. Sharma,Kidney Disease,4/11/2025,4/16/2025,5,61510,Government,Card,3.4,Yes
+621,P0621,12,Female,Pune,Oncology,Dr. Desai,Diabetes,4/10/2025,4/22/2025,12,110650,Government,Cash,3.1,Yes
+622,P0622,70,Female,Thane,Gastroenterology,Dr. Bhat,Diabetes,12/10/2025,12/16/2025,6,63838,Self-Pay,UPI,4.3,Yes
+623,P0623,24,Female,Nashik,Orthopedics,Dr. Joshi,Gastritis,11/17/2025,11/19/2025,2,42535,Government,Insurance,4,No
+624,P0624,78,Female,Pune,Orthopedics,Dr. Joshi,Cancer,8/8/2025,8/16/2025,8,57101,Self-Pay,Insurance,4.7,Yes
+625,P0625,49,Male,Pune,Pediatrics,Dr. Shah,Cancer,12/20/2025,1/3/2026,14,103834,Self-Pay,Card,3.3,No
+626,P0626,78,Female,Mumbai,Pulmonology,Dr. Kulkarni,Fracture,2/22/2025,2/24/2025,2,43039,Self-Pay,Card,3.7,No
+627,P0627,67,Male,Nashik,General Medicine,Dr. Singh,Kidney Disease,12/30/2025,1/14/2026,15,121710,Self-Pay,Card,3.7,No
+628,P0628,19,Female,Mumbai,Neurology,Dr. Rao,Pneumonia,2/27/2025,3/8/2025,9,68637,Government,Insurance,3.3,No
+629,P0629,39,Male,Mumbai,Cardiology,Dr. Sharma,Cancer,4/29/2025,5/14/2025,15,105129,Government,UPI,5,No
+630,P0630,3,Female,Pune,Oncology,Dr. Kapoor,Diabetes,12/23/2025,1/1/2026,9,131382,Private,UPI,4.6,Yes
+631,P0631,73,Male,Pune,Oncology,Dr. Kapoor,Hypertension,9/15/2025,9/28/2025,13,112316,Self-Pay,Insurance,3.1,No
+632,P0632,27,Male,Mumbai,Pediatrics,Dr. Shah,Asthma,9/14/2025,9/25/2025,11,56962,Government,Card,4.6,Yes
+633,P0633,35,Female,Thane,Cardiology,Dr. Mehta,Heart Disease,8/30/2025,9/6/2025,7,89946,Government,Card,3.8,Yes
+634,P0634,8,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Pneumonia,10/22/2025,11/2/2025,11,76208,Government,Insurance,4.6,No
+635,P0635,17,Male,Thane,Pulmonology,Dr. Kulkarni,Asthma,6/10/2025,6/25/2025,15,94427,Private,Cash,4.2,No
+636,P0636,13,Male,Navi Mumbai,Neurology,Dr. Rao,Gastritis,3/6/2025,3/10/2025,4,62445,Self-Pay,Insurance,3.9,No
+637,P0637,49,Male,Pune,Neurology,Dr. Khan,Fracture,6/26/2025,7/5/2025,9,99453,Private,Card,3.4,Yes
+638,P0638,35,Female,Nashik,General Medicine,Dr. Gupta,Fracture,11/29/2025,12/3/2025,4,39126,Self-Pay,Insurance,3.9,No
+639,P0639,64,Female,Nashik,Cardiology,Dr. Mehta,Migraine,4/13/2025,4/25/2025,12,135977,Private,UPI,2.6,No
+640,P0640,24,Male,Mumbai,Pulmonology,Dr. Kulkarni,Diabetes,5/25/2025,5/27/2025,2,48929,Government,Insurance,2.6,No
+641,P0641,23,Male,Nashik,Pediatrics,Dr. Shah,Gastritis,8/12/2025,8/26/2025,14,64998,Private,Insurance,4.5,No
+642,P0642,47,Male,Thane,Orthopedics,Dr. Patil,Pneumonia,11/23/2025,11/29/2025,6,79266,Government,Card,4.4,No
+643,P0643,52,Female,Thane,Gastroenterology,Dr. Nair,Hypertension,4/1/2025,4/2/2025,1,34356,Private,Cash,4.8,No
+644,P0644,20,Female,Nashik,Gastroenterology,Dr. Nair,Pneumonia,1/16/2025,1/17/2025,1,39690,Private,Cash,4.1,Yes
+645,P0645,31,Male,Thane,General Medicine,Dr. Gupta,Migraine,10/27/2025,11/8/2025,12,70505,Self-Pay,Insurance,4.2,No
+646,P0646,54,Female,Thane,Orthopedics,Dr. Joshi,Heart Disease,9/6/2025,9/20/2025,14,71653,Government,UPI,4.3,No
+647,P0647,56,Male,Nashik,Orthopedics,Dr. Joshi,Heart Disease,5/1/2025,5/13/2025,12,67817,Government,Card,5,Yes
+648,P0648,8,Female,Mumbai,Oncology,Dr. Kapoor,Migraine,10/3/2025,10/6/2025,3,88281,Self-Pay,UPI,5,No
+649,P0649,34,Male,Navi Mumbai,Oncology,Dr. Kapoor,Kidney Disease,8/30/2025,9/6/2025,7,115388,Self-Pay,Card,5,Yes
+650,P0650,44,Female,Nashik,General Medicine,Dr. Gupta,Hypertension,5/8/2025,5/20/2025,12,67090,Self-Pay,UPI,4,No
+651,P0651,49,Female,Nashik,Oncology,Dr. Desai,Migraine,8/16/2025,8/31/2025,15,118503,Private,Insurance,4.2,No
+652,P0652,76,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,8/1/2025,8/9/2025,8,89177,Self-Pay,Card,5,No
+653,P0653,18,Male,Mumbai,Gastroenterology,Dr. Bhat,Migraine,6/29/2025,7/10/2025,11,72169,Private,Insurance,3.8,No
+654,P0654,24,Female,Mumbai,Pediatrics,Dr. Shah,Migraine,11/7/2025,11/16/2025,9,56907,Self-Pay,Card,3.9,No
+655,P0655,73,Female,Thane,Gastroenterology,Dr. Nair,Asthma,1/12/2025,1/15/2025,3,39080,Self-Pay,UPI,3.8,No
+656,P0656,62,Male,Pune,Pulmonology,Dr. Verma,Migraine,1/31/2025,2/2/2025,2,38532,Self-Pay,Cash,4.1,No
+657,P0657,16,Female,Mumbai,Neurology,Dr. Khan,Hypertension,3/18/2025,3/23/2025,5,68190,Government,UPI,3.7,No
+658,P0658,61,Male,Navi Mumbai,Gastroenterology,Dr. Bhat,Gastritis,1/26/2025,2/2/2025,7,48848,Self-Pay,Card,4.7,No
+659,P0659,58,Male,Mumbai,Orthopedics,Dr. Joshi,Gastritis,11/22/2025,11/23/2025,1,46548,Self-Pay,Card,4,Yes
+660,P0660,11,Male,Navi Mumbai,Neurology,Dr. Rao,Asthma,11/29/2025,12/4/2025,5,55388,Private,UPI,2.8,Yes
+661,P0661,36,Female,Pune,Oncology,Dr. Desai,Fracture,11/5/2025,11/6/2025,1,81352,Private,Cash,5,No
+662,P0662,26,Female,Pune,Oncology,Dr. Desai,Hypertension,6/16/2025,6/20/2025,4,92735,Private,Insurance,3.4,No
+663,P0663,3,Male,Nashik,Gastroenterology,Dr. Bhat,Diabetes,10/2/2025,10/3/2025,1,27199,Private,Cash,4.2,No
+664,P0664,27,Female,Pune,Neurology,Dr. Khan,Pneumonia,11/30/2025,12/8/2025,8,93752,Private,UPI,3.6,No
+665,P0665,49,Male,Pune,Cardiology,Dr. Mehta,Migraine,12/7/2025,12/16/2025,9,88918,Government,Insurance,4.1,Yes
+666,P0666,43,Male,Thane,Gastroenterology,Dr. Bhat,Kidney Disease,1/23/2025,2/3/2025,11,84696,Government,Cash,5,Yes
+667,P0667,79,Female,Pune,Gastroenterology,Dr. Nair,Pneumonia,12/12/2025,12/20/2025,8,74780,Government,Insurance,4.8,No
+668,P0668,12,Female,Mumbai,Oncology,Dr. Desai,Migraine,6/19/2025,6/21/2025,2,88188,Government,Insurance,4.4,No
+669,P0669,31,Female,Navi Mumbai,Gastroenterology,Dr. Nair,Gastritis,11/7/2025,11/20/2025,13,112380,Self-Pay,UPI,3.2,No
+670,P0670,10,Female,Pune,Pulmonology,Dr. Verma,Diabetes,10/30/2025,11/8/2025,9,81227,Private,Insurance,4.5,No
+671,P0671,84,Male,Thane,Neurology,Dr. Rao,Migraine,2/12/2025,2/22/2025,10,99627,Private,Insurance,4.3,No
+672,P0672,21,Female,Mumbai,Pediatrics,Dr. Shah,Fracture,3/29/2025,4/2/2025,4,45245,Government,Insurance,5,No
+673,P0673,24,Male,Navi Mumbai,Pediatrics,Dr. Shah,Cancer,12/17/2025,12/24/2025,7,56727,Private,Cash,4.4,No
+674,P0674,54,Female,Thane,Cardiology,Dr. Mehta,Pneumonia,10/22/2025,11/1/2025,10,84868,Government,Insurance,3.7,No
+675,P0675,32,Male,Pune,Gastroenterology,Dr. Bhat,Hypertension,1/26/2025,1/29/2025,3,33989,Self-Pay,Cash,3.6,No
+676,P0676,49,Male,Mumbai,Oncology,Dr. Kapoor,Asthma,5/9/2025,5/18/2025,9,122190,Government,Card,4.6,No
+677,P0677,43,Male,Nashik,General Medicine,Dr. Gupta,Fracture,6/16/2025,6/25/2025,9,65713,Private,Cash,4.7,Yes
+678,P0678,62,Female,Thane,Gastroenterology,Dr. Bhat,Hypertension,11/24/2025,12/7/2025,13,116022,Self-Pay,Cash,3.5,No
+679,P0679,4,Female,Navi Mumbai,Neurology,Dr. Rao,Gastritis,2/6/2025,2/10/2025,4,54409,Private,Insurance,3.9,Yes
+680,P0680,10,Male,Mumbai,Orthopedics,Dr. Patil,Heart Disease,11/17/2025,11/27/2025,10,84195,Private,Cash,4.7,No
+681,P0681,64,Male,Pune,Neurology,Dr. Rao,Migraine,2/10/2025,2/17/2025,7,92313,Private,Cash,3.7,No
+682,P0682,60,Female,Pune,Cardiology,Dr. Sharma,Diabetes,3/11/2025,3/16/2025,5,81953,Private,UPI,3.7,No
+683,P0683,36,Male,Nashik,Gastroenterology,Dr. Bhat,Asthma,2/17/2025,2/22/2025,5,55436,Self-Pay,Card,4.9,No
+684,P0684,39,Female,Thane,Neurology,Dr. Rao,Heart Disease,9/14/2025,9/21/2025,7,76281,Self-Pay,Cash,4.3,No
+685,P0685,48,Female,Mumbai,Neurology,Dr. Rao,Migraine,2/2/2025,2/4/2025,2,54209,Self-Pay,UPI,3.4,No
+686,P0686,17,Male,Mumbai,Gastroenterology,Dr. Nair,Kidney Disease,12/20/2025,1/2/2026,13,89858,Self-Pay,Cash,2.9,No
+687,P0687,21,Female,Pune,Neurology,Dr. Rao,Diabetes,7/24/2025,8/4/2025,11,99669,Government,Card,3.9,Yes
+688,P0688,9,Female,Thane,Cardiology,Dr. Sharma,Kidney Disease,8/3/2025,8/15/2025,12,92846,Government,Card,5,No
+689,P0689,16,Female,Nashik,Neurology,Dr. Rao,Heart Disease,7/23/2025,7/24/2025,1,50802,Government,UPI,3.8,No
+690,P0690,11,Female,Thane,Pulmonology,Dr. Kulkarni,Asthma,4/27/2025,5/8/2025,11,74617,Government,Card,4.7,No
+691,P0691,31,Male,Nashik,Oncology,Dr. Desai,Asthma,2/11/2025,2/18/2025,7,115891,Self-Pay,Insurance,4.1,Yes
+692,P0692,75,Female,Mumbai,Oncology,Dr. Desai,Kidney Disease,5/8/2025,5/15/2025,7,124230,Self-Pay,UPI,4.1,No
+693,P0693,66,Male,Mumbai,Pediatrics,Dr. Shah,Pneumonia,7/13/2025,7/22/2025,9,47784,Government,Card,3.4,No
+694,P0694,40,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Gastritis,6/5/2025,6/10/2025,5,46164,Government,Card,4.9,Yes
+695,P0695,14,Female,Pune,Pulmonology,Dr. Verma,Hypertension,2/7/2025,2/19/2025,12,92974,Self-Pay,Card,1.9,No
+696,P0696,54,Male,Nashik,Neurology,Dr. Khan,Cancer,1/31/2025,2/10/2025,10,114201,Self-Pay,Insurance,4.5,No
+697,P0697,3,Male,Navi Mumbai,General Medicine,Dr. Gupta,Fracture,8/24/2025,9/8/2025,15,121118,Self-Pay,Cash,4,No
+698,P0698,75,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Cancer,5/16/2025,5/20/2025,4,43642,Private,Insurance,4.8,No
+699,P0699,68,Female,Nashik,General Medicine,Dr. Gupta,Gastritis,5/19/2025,6/1/2025,13,105518,Self-Pay,Insurance,4.7,No
+700,P0700,83,Female,Nashik,Neurology,Dr. Khan,Kidney Disease,3/18/2025,3/31/2025,13,101375,Government,Cash,3.3,No
+701,P0701,84,Female,Thane,Cardiology,Dr. Mehta,Hypertension,5/23/2025,5/24/2025,1,57024,Private,Insurance,4.3,No
+702,P0702,3,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Asthma,5/5/2025,5/17/2025,12,88798,Government,Cash,3.5,No
+703,P0703,76,Female,Thane,Oncology,Dr. Desai,Migraine,1/15/2025,1/17/2025,2,83183,Government,Insurance,5,No
+704,P0704,56,Male,Thane,Oncology,Dr. Kapoor,Gastritis,9/6/2025,9/12/2025,6,106735,Government,Insurance,3.2,Yes
+705,P0705,25,Female,Nashik,Cardiology,Dr. Mehta,Diabetes,2/15/2025,2/24/2025,9,99382,Private,UPI,3.3,No
+706,P0706,3,Male,Thane,Cardiology,Dr. Mehta,Asthma,4/12/2025,4/18/2025,6,85300,Private,UPI,2.2,No
+707,P0707,57,Male,Nashik,Pulmonology,Dr. Verma,Hypertension,10/10/2025,10/21/2025,11,110854,Self-Pay,Insurance,3.4,No
+708,P0708,37,Male,Navi Mumbai,Oncology,Dr. Kapoor,Kidney Disease,5/11/2025,5/20/2025,9,143202,Private,Insurance,5,No
+709,P0709,28,Male,Pune,Cardiology,Dr. Sharma,Hypertension,11/3/2025,11/7/2025,4,73167,Government,Insurance,4.3,No
+710,P0710,36,Male,Pune,Cardiology,Dr. Mehta,Kidney Disease,8/31/2025,9/9/2025,9,84154,Self-Pay,Insurance,4.9,No
+711,P0711,63,Male,Mumbai,Oncology,Dr. Kapoor,Heart Disease,12/6/2025,12/15/2025,9,136938,Private,Cash,3.9,No
+712,P0712,69,Female,Mumbai,Orthopedics,Dr. Joshi,Pneumonia,4/15/2025,4/18/2025,3,63300,Government,Card,4.4,No
+713,P0713,79,Male,Pune,Cardiology,Dr. Mehta,Cancer,12/12/2025,12/27/2025,15,146909,Self-Pay,Insurance,3.1,No
+714,P0714,65,Female,Pune,Oncology,Dr. Desai,Hypertension,11/20/2025,12/5/2025,15,155507,Self-Pay,Cash,4,Yes
+715,P0715,19,Male,Mumbai,General Medicine,Dr. Gupta,Cancer,6/1/2025,6/14/2025,13,51960,Self-Pay,Insurance,4,No
+716,P0716,82,Female,Pune,Neurology,Dr. Khan,Hypertension,10/21/2025,10/28/2025,7,89438,Self-Pay,Card,4.1,No
+717,P0717,79,Male,Navi Mumbai,Oncology,Dr. Kapoor,Kidney Disease,1/31/2025,2/7/2025,7,95661,Government,UPI,4.3,No
+718,P0718,52,Male,Pune,Pulmonology,Dr. Verma,Asthma,4/11/2025,4/19/2025,8,73920,Self-Pay,UPI,4,Yes
+719,P0719,40,Male,Thane,Pediatrics,Dr. Shah,Cancer,10/27/2025,11/2/2025,6,35190,Self-Pay,Card,3.9,No
+720,P0720,70,Male,Mumbai,Neurology,Dr. Rao,Migraine,1/30/2025,2/6/2025,7,75947,Private,Card,3.8,No
+721,P0721,21,Female,Nashik,Orthopedics,Dr. Patil,Asthma,11/16/2025,12/1/2025,15,139386,Private,Cash,5,No
+722,P0722,83,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Heart Disease,8/13/2025,8/25/2025,12,54885,Self-Pay,Card,5,No
+723,P0723,73,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Diabetes,12/23/2025,12/27/2025,4,56677,Private,Insurance,4,No
+724,P0724,78,Male,Nashik,Orthopedics,Dr. Joshi,Cancer,12/14/2025,12/24/2025,10,106618,Self-Pay,Card,4.8,No
+725,P0725,26,Male,Nashik,Orthopedics,Dr. Joshi,Cancer,6/22/2025,7/4/2025,12,122903,Self-Pay,Cash,2.9,No
+726,P0726,25,Female,Navi Mumbai,General Medicine,Dr. Gupta,Diabetes,11/19/2025,12/4/2025,15,104476,Self-Pay,Cash,3.3,No
+727,P0727,1,Female,Navi Mumbai,Neurology,Dr. Rao,Pneumonia,7/8/2025,7/15/2025,7,83345,Self-Pay,Card,4.3,No
+728,P0728,78,Male,Pune,Pulmonology,Dr. Kulkarni,Pneumonia,6/26/2025,7/5/2025,9,59942,Government,UPI,3.7,No
+729,P0729,23,Male,Pune,Gastroenterology,Dr. Bhat,Cancer,2/17/2025,3/2/2025,13,84786,Self-Pay,UPI,3.8,Yes
+730,P0730,79,Male,Thane,Pulmonology,Dr. Verma,Kidney Disease,4/20/2025,5/3/2025,13,109896,Private,Card,4.1,No
+731,P0731,43,Male,Thane,Gastroenterology,Dr. Bhat,Migraine,7/27/2025,7/28/2025,1,32800,Private,UPI,2.6,No
+732,P0732,78,Female,Navi Mumbai,Neurology,Dr. Rao,Asthma,11/16/2025,11/23/2025,7,68930,Self-Pay,UPI,4.4,No
+733,P0733,65,Female,Thane,Pulmonology,Dr. Kulkarni,Gastritis,1/4/2025,1/17/2025,13,96506,Private,Cash,3.1,No
+734,P0734,75,Male,Nashik,Cardiology,Dr. Sharma,Fracture,3/11/2025,3/12/2025,1,54045,Self-Pay,UPI,5,No
+735,P0735,78,Female,Thane,Neurology,Dr. Rao,Kidney Disease,5/8/2025,5/23/2025,15,143337,Government,Cash,4.1,Yes
+736,P0736,60,Male,Pune,Oncology,Dr. Desai,Hypertension,9/14/2025,9/15/2025,1,82801,Private,Cash,4.2,Yes
+737,P0737,30,Male,Mumbai,Pulmonology,Dr. Verma,Cancer,2/26/2025,2/27/2025,1,32083,Private,Cash,4.3,Yes
+738,P0738,3,Female,Pune,Gastroenterology,Dr. Bhat,Diabetes,2/18/2025,2/21/2025,3,44211,Private,Cash,4.5,No
+739,P0739,60,Male,Pune,Cardiology,Dr. Mehta,Gastritis,5/11/2025,5/22/2025,11,90581,Government,Insurance,3.9,No
+740,P0740,80,Female,Mumbai,Pediatrics,Dr. Iyer,Hypertension,4/4/2025,4/6/2025,2,34717,Government,Cash,3.2,No
+741,P0741,15,Female,Mumbai,General Medicine,Dr. Singh,Fracture,4/4/2025,4/7/2025,3,39809,Self-Pay,Cash,3.8,No
+742,P0742,61,Male,Navi Mumbai,Orthopedics,Dr. Patil,Kidney Disease,2/15/2025,2/20/2025,5,64633,Government,Card,3.8,No
+743,P0743,17,Male,Mumbai,Pulmonology,Dr. Verma,Pneumonia,11/27/2025,12/11/2025,14,88053,Self-Pay,Insurance,5,No
+744,P0744,85,Male,Thane,Gastroenterology,Dr. Bhat,Kidney Disease,8/16/2025,8/19/2025,3,33472,Self-Pay,Insurance,3.8,No
+745,P0745,44,Male,Nashik,General Medicine,Dr. Singh,Heart Disease,12/22/2025,1/2/2026,11,63375,Self-Pay,Card,3.5,No
+746,P0746,72,Female,Pune,Neurology,Dr. Rao,Gastritis,5/6/2025,5/16/2025,10,85862,Private,UPI,4.3,No
+747,P0747,83,Female,Navi Mumbai,Pulmonology,Dr. Verma,Fracture,2/23/2025,3/3/2025,8,68606,Private,Card,5,No
+748,P0748,31,Male,Thane,Gastroenterology,Dr. Nair,Heart Disease,6/25/2025,7/9/2025,14,103979,Government,UPI,4.9,No
+749,P0749,50,Male,Thane,Cardiology,Dr. Sharma,Migraine,12/3/2025,12/18/2025,15,96980,Self-Pay,Cash,5,No
+750,P0750,68,Female,Navi Mumbai,Cardiology,Dr. Sharma,Hypertension,11/7/2025,11/20/2025,13,119186,Self-Pay,Cash,4.1,No
+751,P0751,32,Male,Mumbai,Cardiology,Dr. Mehta,Heart Disease,9/23/2025,10/1/2025,8,103929,Self-Pay,Card,3.3,No
+752,P0752,56,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Hypertension,1/23/2025,1/25/2025,2,44723,Private,UPI,4.3,No
+753,P0753,83,Male,Mumbai,Orthopedics,Dr. Patil,Hypertension,10/12/2025,10/21/2025,9,100236,Government,Insurance,3.6,Yes
+754,P0754,85,Male,Thane,Orthopedics,Dr. Patil,Asthma,8/21/2025,8/28/2025,7,71164,Private,Card,4.1,Yes
+755,P0755,11,Female,Mumbai,Orthopedics,Dr. Joshi,Migraine,1/29/2025,2/13/2025,15,130271,Private,UPI,3.5,No
+756,P0756,16,Male,Mumbai,Oncology,Dr. Kapoor,Fracture,12/19/2025,1/1/2026,13,125097,Private,Cash,3.4,No
+757,P0757,31,Female,Thane,Pediatrics,Dr. Iyer,Gastritis,3/21/2025,4/5/2025,15,67320,Private,Insurance,3.8,Yes
+758,P0758,13,Female,Nashik,Orthopedics,Dr. Patil,Hypertension,8/13/2025,8/15/2025,2,50040,Private,UPI,4,No
+759,P0759,18,Male,Nashik,Oncology,Dr. Kapoor,Heart Disease,4/6/2025,4/14/2025,8,107396,Government,Card,4.1,No
+760,P0760,1,Female,Nashik,Neurology,Dr. Rao,Fracture,9/17/2025,9/24/2025,7,69268,Private,UPI,2.2,No
+761,P0761,82,Female,Thane,Gastroenterology,Dr. Nair,Asthma,3/3/2025,3/18/2025,15,127033,Government,Cash,4.1,No
+762,P0762,24,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Migraine,5/21/2025,5/23/2025,2,45076,Private,Insurance,2.4,No
+763,P0763,85,Female,Pune,Gastroenterology,Dr. Bhat,Cancer,6/16/2025,6/20/2025,4,47472,Government,Cash,3.1,Yes
+764,P0764,70,Male,Navi Mumbai,Neurology,Dr. Khan,Gastritis,1/17/2025,1/29/2025,12,75881,Government,Card,3.7,No
+765,P0765,64,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Heart Disease,9/21/2025,9/22/2025,1,28672,Private,Insurance,4,No
+766,P0766,31,Female,Navi Mumbai,Pulmonology,Dr. Verma,Cancer,9/25/2025,10/6/2025,11,74273,Government,Cash,3,No
+767,P0767,64,Male,Nashik,Neurology,Dr. Rao,Asthma,11/16/2025,11/30/2025,14,131814,Government,Cash,5,No
+768,P0768,27,Male,Navi Mumbai,Cardiology,Dr. Sharma,Gastritis,9/30/2025,10/12/2025,12,130831,Private,Cash,3.9,No
+769,P0769,41,Female,Nashik,General Medicine,Dr. Gupta,Diabetes,1/5/2025,1/16/2025,11,64326,Self-Pay,Insurance,3.7,No
+770,P0770,50,Female,Mumbai,Orthopedics,Dr. Joshi,Diabetes,4/5/2025,4/6/2025,1,46994,Self-Pay,Card,4.8,No
+771,P0771,63,Male,Mumbai,Orthopedics,Dr. Patil,Fracture,12/11/2025,12/17/2025,6,75861,Private,Insurance,3.7,No
+772,P0772,12,Female,Mumbai,Gastroenterology,Dr. Nair,Pneumonia,6/18/2025,6/21/2025,3,47201,Private,Card,4.1,No
+773,P0773,39,Male,Thane,Neurology,Dr. Khan,Hypertension,12/13/2025,12/17/2025,4,59781,Self-Pay,Insurance,4.7,No
+774,P0774,81,Female,Nashik,Pediatrics,Dr. Shah,Asthma,8/3/2025,8/9/2025,6,51419,Self-Pay,Card,4.1,No
+775,P0775,8,Female,Nashik,Orthopedics,Dr. Patil,Hypertension,2/28/2025,3/1/2025,1,42754,Private,Cash,4.2,No
+776,P0776,6,Male,Nashik,Oncology,Dr. Desai,Heart Disease,3/30/2025,4/2/2025,3,94600,Private,Insurance,3.6,No
+777,P0777,72,Female,Navi Mumbai,Pediatrics,Dr. Shah,Asthma,7/29/2025,8/6/2025,8,34817,Private,Card,4,No
+778,P0778,75,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Cancer,11/12/2025,11/18/2025,6,58460,Self-Pay,Insurance,4.5,Yes
+779,P0779,41,Female,Navi Mumbai,Orthopedics,Dr. Patil,Kidney Disease,8/23/2025,8/26/2025,3,42892,Self-Pay,Card,4.6,Yes
+780,P0780,83,Male,Nashik,Gastroenterology,Dr. Bhat,Asthma,6/24/2025,6/30/2025,6,58992,Private,Card,3.3,Yes
+781,P0781,46,Male,Thane,Pulmonology,Dr. Kulkarni,Heart Disease,11/6/2025,11/16/2025,10,84550,Self-Pay,Cash,3.4,No
+782,P0782,22,Male,Pune,Gastroenterology,Dr. Bhat,Migraine,2/9/2025,2/15/2025,6,56572,Government,Insurance,4.3,No
+783,P0783,9,Female,Pune,Orthopedics,Dr. Joshi,Fracture,12/12/2025,12/14/2025,2,54969,Private,Insurance,4.4,Yes
+784,P0784,51,Male,Thane,Neurology,Dr. Khan,Gastritis,10/15/2025,10/17/2025,2,47834,Government,Cash,3.2,Yes
+785,P0785,76,Male,Nashik,General Medicine,Dr. Singh,Gastritis,5/17/2025,5/21/2025,4,38827,Government,Card,5,No
+786,P0786,80,Female,Navi Mumbai,Neurology,Dr. Rao,Migraine,1/15/2025,1/23/2025,8,70376,Private,Cash,4.6,No
+787,P0787,62,Male,Nashik,Pulmonology,Dr. Verma,Hypertension,1/29/2025,2/4/2025,6,53527,Government,Card,4.5,No
+788,P0788,25,Female,Nashik,Oncology,Dr. Kapoor,Cancer,6/21/2025,7/3/2025,12,126290,Private,Cash,4.9,No
+789,P0789,19,Female,Nashik,Cardiology,Dr. Sharma,Kidney Disease,2/2/2025,2/6/2025,4,73274,Private,Card,3.5,Yes
+790,P0790,76,Male,Mumbai,Pediatrics,Dr. Shah,Diabetes,11/21/2025,11/26/2025,5,22869,Self-Pay,Insurance,3.4,Yes
+791,P0791,56,Female,Thane,Neurology,Dr. Khan,Diabetes,1/31/2025,2/5/2025,5,77352,Government,Cash,4.1,No
+792,P0792,76,Female,Thane,Orthopedics,Dr. Joshi,Gastritis,2/4/2025,2/15/2025,11,86165,Self-Pay,Insurance,3.6,No
+793,P0793,63,Female,Nashik,Oncology,Dr. Kapoor,Pneumonia,6/24/2025,6/25/2025,1,86216,Self-Pay,UPI,4.7,No
+794,P0794,77,Female,Mumbai,Neurology,Dr. Rao,Fracture,9/13/2025,9/16/2025,3,59970,Government,Card,3.8,Yes
+795,P0795,15,Male,Navi Mumbai,Cardiology,Dr. Sharma,Pneumonia,3/1/2025,3/9/2025,8,102364,Self-Pay,UPI,2.7,No
+796,P0796,80,Female,Thane,Neurology,Dr. Khan,Cancer,8/22/2025,9/4/2025,13,88032,Government,Card,2.9,No
+797,P0797,73,Female,Pune,General Medicine,Dr. Singh,Cancer,5/15/2025,5/17/2025,2,26794,Private,Insurance,5,No
+798,P0798,26,Female,Navi Mumbai,Oncology,Dr. Kapoor,Pneumonia,1/17/2025,1/25/2025,8,118092,Government,UPI,5,No
+799,P0799,62,Female,Mumbai,Pediatrics,Dr. Iyer,Migraine,8/29/2025,9/7/2025,9,78873,Self-Pay,Cash,3.9,No
+800,P0800,51,Male,Nashik,General Medicine,Dr. Singh,Migraine,12/5/2025,12/12/2025,7,47286,Private,UPI,5,Yes
+801,P0801,47,Male,Nashik,Pulmonology,Dr. Kulkarni,Fracture,8/23/2025,8/31/2025,8,74970,Government,UPI,5,No
+802,P0802,71,Male,Mumbai,Pediatrics,Dr. Shah,Asthma,12/17/2025,12/23/2025,6,55966,Government,UPI,3.5,No
+803,P0803,40,Male,Thane,Pediatrics,Dr. Shah,Heart Disease,5/22/2025,5/26/2025,4,31716,Government,Cash,3.3,No
+804,P0804,17,Male,Thane,Cardiology,Dr. Sharma,Kidney Disease,8/24/2025,9/6/2025,13,105922,Self-Pay,UPI,3.9,No
+805,P0805,3,Male,Pune,Gastroenterology,Dr. Bhat,Diabetes,12/24/2025,1/8/2026,15,125233,Private,Insurance,4.3,No
+806,P0806,30,Male,Nashik,Pediatrics,Dr. Shah,Pneumonia,1/29/2025,2/8/2025,10,53206,Government,UPI,5,No
+807,P0807,43,Male,Nashik,Orthopedics,Dr. Joshi,Hypertension,9/20/2025,10/3/2025,13,89220,Private,UPI,4.6,No
+808,P0808,8,Male,Nashik,Orthopedics,Dr. Patil,Kidney Disease,2/1/2025,2/5/2025,4,56622,Self-Pay,Cash,4.6,No
+809,P0809,21,Male,Mumbai,Oncology,Dr. Kapoor,Diabetes,7/23/2025,8/3/2025,11,146975,Government,Insurance,4.1,No
+810,P0810,82,Female,Pune,Cardiology,Dr. Mehta,Hypertension,12/28/2025,1/8/2026,11,126921,Private,Card,4.3,No
+811,P0811,27,Female,Thane,Gastroenterology,Dr. Nair,Asthma,5/10/2025,5/19/2025,9,60600,Government,UPI,4.4,No
+812,P0812,21,Male,Mumbai,Oncology,Dr. Kapoor,Migraine,8/22/2025,9/1/2025,10,116171,Self-Pay,Card,2.3,No
+813,P0813,84,Male,Navi Mumbai,Neurology,Dr. Khan,Cancer,3/2/2025,3/15/2025,13,125420,Government,Insurance,4.9,No
+814,P0814,10,Male,Pune,Pulmonology,Dr. Kulkarni,Hypertension,1/12/2025,1/19/2025,7,51012,Private,Card,3.6,No
+815,P0815,35,Female,Pune,Pediatrics,Dr. Shah,Fracture,7/12/2025,7/20/2025,8,36674,Private,Cash,4.7,No
+816,P0816,39,Female,Mumbai,Oncology,Dr. Kapoor,Asthma,10/6/2025,10/10/2025,4,99890,Government,UPI,4.4,No
+817,P0817,16,Male,Mumbai,Pulmonology,Dr. Verma,Kidney Disease,5/25/2025,5/29/2025,4,52081,Government,Card,4.3,Yes
+818,P0818,79,Female,Mumbai,Neurology,Dr. Rao,Kidney Disease,9/23/2025,10/8/2025,15,90990,Government,Insurance,3.5,No
+819,P0819,36,Male,Pune,Cardiology,Dr. Mehta,Hypertension,2/17/2025,2/20/2025,3,77780,Government,Cash,3.7,No
+820,P0820,75,Female,Mumbai,Oncology,Dr. Kapoor,Pneumonia,12/10/2025,12/23/2025,13,126532,Self-Pay,Card,4.4,No
+821,P0821,14,Female,Nashik,Neurology,Dr. Rao,Asthma,12/11/2025,12/19/2025,8,81270,Government,Card,3.9,No
+822,P0822,54,Female,Navi Mumbai,Neurology,Dr. Rao,Fracture,2/11/2025,2/12/2025,1,41679,Government,Cash,4.4,No
+823,P0823,23,Male,Nashik,Gastroenterology,Dr. Bhat,Migraine,3/26/2025,4/6/2025,11,107069,Self-Pay,Card,3.5,No
+824,P0824,2,Male,Mumbai,Cardiology,Dr. Mehta,Heart Disease,1/5/2025,1/19/2025,14,93098,Private,Card,3.8,No
+825,P0825,80,Male,Navi Mumbai,Orthopedics,Dr. Joshi,Pneumonia,5/5/2025,5/15/2025,10,70583,Self-Pay,UPI,5,Yes
+826,P0826,51,Female,Navi Mumbai,Cardiology,Dr. Sharma,Cancer,5/12/2025,5/20/2025,8,98274,Government,Insurance,4.3,No
+827,P0827,19,Male,Pune,Orthopedics,Dr. Patil,Hypertension,8/14/2025,8/23/2025,9,77631,Private,Card,5,No
+828,P0828,51,Male,Nashik,Cardiology,Dr. Mehta,Gastritis,12/7/2025,12/15/2025,8,97496,Government,Insurance,4.8,Yes
+829,P0829,71,Female,Nashik,General Medicine,Dr. Singh,Kidney Disease,1/17/2025,1/30/2025,13,98052,Private,Insurance,3.5,No
+830,P0830,11,Female,Mumbai,Gastroenterology,Dr. Bhat,Diabetes,2/4/2025,2/5/2025,1,32332,Private,UPI,4.3,No
+831,P0831,10,Female,Pune,Cardiology,Dr. Mehta,Migraine,5/8/2025,5/12/2025,4,71375,Private,Card,4.1,No
+832,P0832,54,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Pneumonia,2/3/2025,2/10/2025,7,37031,Self-Pay,UPI,2.3,No
+833,P0833,6,Female,Nashik,Oncology,Dr. Desai,Cancer,6/29/2025,7/14/2025,15,184030,Self-Pay,Card,4.3,Yes
+834,P0834,4,Female,Thane,Pediatrics,Dr. Iyer,Pneumonia,3/27/2025,3/29/2025,2,28457,Private,Card,4.9,No
+835,P0835,69,Female,Pune,Oncology,Dr. Desai,Heart Disease,10/20/2025,10/25/2025,5,88225,Private,Insurance,4.4,No
+836,P0836,40,Male,Navi Mumbai,Neurology,Dr. Rao,Migraine,9/30/2025,10/8/2025,8,69700,Government,Insurance,4.4,Yes
+837,P0837,83,Male,Mumbai,Gastroenterology,Dr. Nair,Asthma,3/15/2025,3/22/2025,7,76063,Government,UPI,4,Yes
+838,P0838,17,Female,Thane,Gastroenterology,Dr. Nair,Hypertension,5/17/2025,5/30/2025,13,109609,Self-Pay,UPI,4.9,No
+839,P0839,61,Male,Pune,Pediatrics,Dr. Iyer,Heart Disease,9/7/2025,9/17/2025,10,71845,Government,UPI,3.7,No
+840,P0840,54,Male,Nashik,Pediatrics,Dr. Iyer,Migraine,6/27/2025,7/6/2025,9,40057,Private,Insurance,4.1,No
+841,P0841,19,Female,Pune,Oncology,Dr. Kapoor,Pneumonia,7/27/2025,8/11/2025,15,115359,Self-Pay,UPI,3.9,Yes
+842,P0842,24,Female,Pune,General Medicine,Dr. Singh,Heart Disease,3/13/2025,3/22/2025,9,51045,Private,Insurance,4.5,No
+843,P0843,62,Male,Mumbai,Gastroenterology,Dr. Nair,Heart Disease,9/11/2025,9/17/2025,6,51617,Government,Cash,3.9,No
+844,P0844,48,Female,Pune,Cardiology,Dr. Mehta,Migraine,6/22/2025,7/3/2025,11,90418,Self-Pay,Card,5,Yes
+845,P0845,14,Male,Nashik,General Medicine,Dr. Singh,Asthma,9/29/2025,10/10/2025,11,83787,Private,Card,4.4,No
+846,P0846,64,Female,Thane,Orthopedics,Dr. Patil,Asthma,1/24/2025,2/2/2025,9,64096,Government,Cash,4.4,No
+847,P0847,14,Female,Thane,General Medicine,Dr. Singh,Pneumonia,3/12/2025,3/18/2025,6,57456,Government,UPI,5,No
+848,P0848,39,Male,Pune,Orthopedics,Dr. Joshi,Diabetes,3/13/2025,3/16/2025,3,49548,Private,Card,3.6,No
+849,P0849,22,Female,Nashik,Pulmonology,Dr. Kulkarni,Gastritis,6/21/2025,7/3/2025,12,75918,Private,Card,2.7,No
+850,P0850,45,Male,Pune,Neurology,Dr. Khan,Asthma,1/14/2025,1/21/2025,7,76258,Government,UPI,4.7,No
+851,P0851,44,Male,Navi Mumbai,Cardiology,Dr. Mehta,Migraine,10/30/2025,11/2/2025,3,74066,Private,Insurance,3.8,No
+852,P0852,26,Male,Mumbai,Oncology,Dr. Kapoor,Kidney Disease,4/21/2025,4/27/2025,6,102436,Private,UPI,4.5,No
+853,P0853,53,Male,Navi Mumbai,Oncology,Dr. Desai,Cancer,1/8/2025,1/17/2025,9,117314,Self-Pay,UPI,3.1,No
+854,P0854,45,Female,Mumbai,Oncology,Dr. Desai,Gastritis,4/15/2025,4/27/2025,12,127899,Government,UPI,3.8,No
+855,P0855,49,Female,Nashik,Pulmonology,Dr. Kulkarni,Gastritis,8/31/2025,9/7/2025,7,53651,Self-Pay,Cash,3.1,No
+856,P0856,54,Male,Navi Mumbai,Pulmonology,Dr. Kulkarni,Heart Disease,9/27/2025,10/8/2025,11,81607,Government,UPI,5,No
+857,P0857,18,Male,Nashik,Cardiology,Dr. Mehta,Asthma,9/29/2025,10/11/2025,12,125221,Government,Cash,4.2,No
+858,P0858,9,Female,Nashik,Pediatrics,Dr. Iyer,Asthma,1/24/2025,2/8/2025,15,87677,Private,Card,3.5,Yes
+859,P0859,36,Female,Navi Mumbai,Neurology,Dr. Rao,Hypertension,3/2/2025,3/10/2025,8,83716,Self-Pay,UPI,3.1,No
+860,P0860,74,Female,Nashik,Oncology,Dr. Kapoor,Fracture,9/3/2025,9/16/2025,13,115296,Private,Cash,4.1,No
+861,P0861,11,Male,Nashik,Orthopedics,Dr. Joshi,Migraine,11/23/2025,12/3/2025,10,61359,Private,UPI,3.6,No
+862,P0862,85,Male,Navi Mumbai,General Medicine,Dr. Gupta,Migraine,2/6/2025,2/12/2025,6,50143,Private,UPI,2.2,Yes
+863,P0863,25,Male,Pune,Pediatrics,Dr. Iyer,Pneumonia,5/23/2025,5/28/2025,5,42110,Private,Insurance,4.1,No
+864,P0864,24,Female,Pune,Neurology,Dr. Rao,Cancer,7/16/2025,7/22/2025,6,80307,Self-Pay,Card,5,No
+865,P0865,44,Female,Navi Mumbai,Pulmonology,Dr. Kulkarni,Hypertension,8/28/2025,9/12/2025,15,108547,Self-Pay,Cash,4,No
+866,P0866,52,Male,Thane,Cardiology,Dr. Sharma,Heart Disease,11/15/2025,11/24/2025,9,109537,Private,Cash,4.1,No
+867,P0867,80,Male,Pune,Orthopedics,Dr. Patil,Asthma,2/10/2025,2/16/2025,6,61373,Government,Card,3.4,No
+868,P0868,73,Male,Mumbai,Orthopedics,Dr. Patil,Hypertension,4/10/2025,4/25/2025,15,104580,Private,UPI,3.2,No
+869,P0869,83,Male,Thane,Pulmonology,Dr. Verma,Asthma,9/16/2025,9/22/2025,6,68866,Private,UPI,3.9,No
+870,P0870,30,Male,Mumbai,Neurology,Dr. Khan,Gastritis,9/23/2025,10/1/2025,8,65637,Government,Insurance,3.6,No
+871,P0871,53,Male,Nashik,Cardiology,Dr. Sharma,Kidney Disease,5/9/2025,5/11/2025,2,64561,Private,Cash,4.2,No
+872,P0872,57,Male,Mumbai,General Medicine,Dr. Singh,Diabetes,9/16/2025,9/19/2025,3,34024,Government,UPI,4,No
+873,P0873,22,Male,Thane,Gastroenterology,Dr. Nair,Pneumonia,6/15/2025,6/28/2025,13,101549,Self-Pay,Insurance,3.9,No
+874,P0874,4,Male,Mumbai,Pediatrics,Dr. Iyer,Gastritis,1/13/2025,1/22/2025,9,38612,Government,Insurance,5,No
+875,P0875,44,Female,Nashik,Pediatrics,Dr. Shah,Diabetes,7/5/2025,7/17/2025,12,70236,Government,UPI,4.7,No
+876,P0876,19,Male,Nashik,Orthopedics,Dr. Joshi,Asthma,7/6/2025,7/11/2025,5,58309,Self-Pay,UPI,4,No
+877,P0877,46,Male,Thane,Pulmonology,Dr. Kulkarni,Kidney Disease,1/28/2025,2/7/2025,10,65567,Self-Pay,Insurance,3.6,No
+878,P0878,19,Female,Nashik,Cardiology,Dr. Mehta,Hypertension,3/28/2025,4/1/2025,4,64221,Self-Pay,Card,4,No
+879,P0879,42,Female,Pune,Cardiology,Dr. Mehta,Diabetes,10/23/2025,10/24/2025,1,49697,Self-Pay,Cash,5,No
+880,P0880,10,Male,Navi Mumbai,General Medicine,Dr. Singh,Gastritis,3/27/2025,4/2/2025,6,37806,Private,Card,4.3,No
+881,P0881,48,Female,Pune,General Medicine,Dr. Gupta,Kidney Disease,4/27/2025,4/30/2025,3,43494,Self-Pay,Cash,4.8,No
+882,P0882,24,Female,Mumbai,Cardiology,Dr. Mehta,Cancer,6/1/2025,6/11/2025,10,106313,Self-Pay,Card,4.7,No
+883,P0883,43,Male,Pune,General Medicine,Dr. Gupta,Heart Disease,1/8/2025,1/21/2025,13,59133,Private,Insurance,2.9,Yes
+884,P0884,69,Male,Pune,General Medicine,Dr. Singh,Pneumonia,3/8/2025,3/17/2025,9,76947,Self-Pay,Card,2.7,No
+885,P0885,36,Male,Mumbai,Neurology,Dr. Khan,Gastritis,4/12/2025,4/20/2025,8,68271,Government,UPI,3.6,No
+886,P0886,1,Male,Navi Mumbai,Oncology,Dr. Desai,Heart Disease,6/14/2025,6/27/2025,13,148956,Government,Card,4.2,No
+887,P0887,6,Female,Thane,General Medicine,Dr. Gupta,Heart Disease,11/5/2025,11/15/2025,10,48167,Private,Cash,3.5,No
+888,P0888,47,Female,Nashik,Pediatrics,Dr. Shah,Kidney Disease,10/6/2025,10/11/2025,5,45166,Private,Insurance,4.8,Yes
+889,P0889,52,Female,Pune,Oncology,Dr. Kapoor,Diabetes,1/20/2025,1/28/2025,8,122833,Self-Pay,Card,4,No
+890,P0890,72,Female,Pune,Oncology,Dr. Kapoor,Fracture,3/29/2025,4/2/2025,4,90424,Private,UPI,3.2,No
+891,P0891,27,Male,Nashik,Gastroenterology,Dr. Nair,Hypertension,3/19/2025,4/2/2025,14,115086,Government,Card,3.5,No
+892,P0892,54,Male,Pune,Gastroenterology,Dr. Bhat,Fracture,10/21/2025,10/31/2025,10,65990,Self-Pay,Card,4.8,No
+893,P0893,64,Female,Nashik,Oncology,Dr. Kapoor,Cancer,11/29/2025,12/4/2025,5,92489,Private,Card,4.1,No
+894,P0894,18,Female,Nashik,Gastroenterology,Dr. Bhat,Kidney Disease,1/5/2025,1/8/2025,3,58003,Private,Card,3.6,No
+895,P0895,17,Male,Navi Mumbai,Pediatrics,Dr. Shah,Cancer,9/22/2025,9/30/2025,8,46212,Government,Card,4.1,No
+896,P0896,46,Male,Thane,Gastroenterology,Dr. Bhat,Cancer,1/14/2025,1/19/2025,5,44753,Self-Pay,UPI,3.5,No
+897,P0897,47,Male,Nashik,Pediatrics,Dr. Iyer,Migraine,4/24/2025,4/29/2025,5,53583,Government,Cash,3.2,No
+898,P0898,62,Male,Pune,Cardiology,Dr. Sharma,Kidney Disease,12/1/2025,12/13/2025,12,88433,Government,Card,3,Yes
+899,P0899,56,Male,Pune,Orthopedics,Dr. Patil,Migraine,2/1/2025,2/13/2025,12,85452,Private,Card,3.5,No
+900,P0900,4,Female,Pune,Pediatrics,Dr. Iyer,Pneumonia,3/25/2025,3/27/2025,2,27097,Private,Card,4,No
+901,P0901,2,Female,Pune,Neurology,Dr. Rao,Cancer,11/7/2025,11/15/2025,8,89247,Private,Cash,4,No
+902,P0902,59,Female,Mumbai,Orthopedics,Dr. Joshi,Gastritis,10/20/2025,10/29/2025,9,69118,Self-Pay,Card,3.4,Yes
+903,P0903,12,Female,Nashik,General Medicine,Dr. Singh,Migraine,5/21/2025,5/25/2025,4,42209,Private,Card,4.7,No
+904,P0904,60,Male,Nashik,General Medicine,Dr. Singh,Fracture,11/9/2025,11/12/2025,3,28733,Self-Pay,Cash,5,No
+905,P0905,84,Female,Nashik,General Medicine,Dr. Gupta,Migraine,11/14/2025,11/27/2025,13,91976,Government,Card,2.7,No
+906,P0906,15,Male,Nashik,Pulmonology,Dr. Kulkarni,Gastritis,8/11/2025,8/22/2025,11,81051,Private,Cash,4.5,No
+907,P0907,38,Male,Mumbai,Cardiology,Dr. Sharma,Migraine,5/30/2025,6/10/2025,11,82673,Government,Cash,2.9,No
+908,P0908,28,Male,Pune,Pulmonology,Dr. Kulkarni,Gastritis,6/22/2025,7/3/2025,11,55251,Self-Pay,Card,5,No
+909,P0909,50,Male,Pune,Orthopedics,Dr. Joshi,Hypertension,9/30/2025,10/3/2025,3,54274,Private,Cash,4.4,No
+910,P0910,40,Male,Mumbai,Pediatrics,Dr. Shah,Heart Disease,6/29/2025,7/9/2025,10,56944,Self-Pay,Card,5,No
+911,P0911,20,Male,Nashik,Oncology,Dr. Desai,Migraine,11/11/2025,11/16/2025,5,99273,Government,UPI,3.9,No
+912,P0912,6,Female,Pune,Oncology,Dr. Desai,Pneumonia,12/19/2025,1/2/2026,14,120280,Self-Pay,Card,4.5,No
+913,P0913,68,Male,Nashik,Orthopedics,Dr. Patil,Migraine,9/5/2025,9/11/2025,6,58664,Government,Cash,4.9,No
+914,P0914,81,Male,Thane,Neurology,Dr. Rao,Kidney Disease,5/30/2025,6/12/2025,13,105675,Government,Insurance,3.3,Yes
+915,P0915,67,Male,Navi Mumbai,General Medicine,Dr. Singh,Heart Disease,11/6/2025,11/16/2025,10,65517,Government,Card,4,No
+916,P0916,15,Male,Navi Mumbai,Oncology,Dr. Kapoor,Diabetes,3/22/2025,3/27/2025,5,92371,Self-Pay,UPI,4.4,No
+917,P0917,64,Male,Thane,Pediatrics,Dr. Iyer,Migraine,3/21/2025,3/29/2025,8,74265,Private,UPI,4.2,No
+918,P0918,43,Male,Mumbai,Pediatrics,Dr. Shah,Cancer,12/8/2025,12/11/2025,3,25802,Private,Cash,3.9,No
+919,P0919,45,Male,Nashik,Pulmonology,Dr. Kulkarni,Kidney Disease,8/15/2025,8/16/2025,1,40156,Government,Cash,4.7,No
+920,P0920,24,Male,Pune,Oncology,Dr. Kapoor,Heart Disease,12/26/2025,1/10/2026,15,140569,Government,Insurance,4.2,Yes
+921,P0921,39,Female,Nashik,Oncology,Dr. Kapoor,Fracture,10/25/2025,11/1/2025,7,116342,Self-Pay,UPI,3.8,No
+922,P0922,65,Female,Mumbai,Orthopedics,Dr. Joshi,Pneumonia,10/31/2025,11/8/2025,8,86998,Self-Pay,Cash,2,No
+923,P0923,38,Male,Pune,Gastroenterology,Dr. Nair,Kidney Disease,7/24/2025,8/4/2025,11,102299,Self-Pay,Card,4.1,No
+924,P0924,46,Male,Thane,General Medicine,Dr. Gupta,Kidney Disease,4/7/2025,4/18/2025,11,68855,Government,Card,4,No
+925,P0925,74,Female,Mumbai,Neurology,Dr. Khan,Fracture,1/21/2025,1/29/2025,8,70351,Government,Insurance,3.2,No
+926,P0926,20,Male,Thane,Neurology,Dr. Rao,Kidney Disease,12/19/2025,12/23/2025,4,56496,Private,Card,2.8,No
+927,P0927,19,Male,Nashik,Neurology,Dr. Rao,Hypertension,7/25/2025,8/2/2025,8,62020,Self-Pay,Card,4.2,No
+928,P0928,28,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Hypertension,3/3/2025,3/14/2025,11,75867,Private,Insurance,2.8,No
+929,P0929,73,Male,Mumbai,Orthopedics,Dr. Patil,Kidney Disease,12/27/2025,1/2/2026,6,47199,Private,Cash,4.7,No
+930,P0930,47,Female,Navi Mumbai,Cardiology,Dr. Mehta,Asthma,9/17/2025,9/21/2025,4,60439,Government,Insurance,4.7,No
+931,P0931,46,Female,Thane,Gastroenterology,Dr. Nair,Migraine,3/15/2025,3/30/2025,15,106734,Self-Pay,Card,4,No
+932,P0932,76,Male,Navi Mumbai,Oncology,Dr. Desai,Gastritis,11/21/2025,12/1/2025,10,124784,Self-Pay,Card,4.7,No
+933,P0933,44,Female,Navi Mumbai,Gastroenterology,Dr. Bhat,Pneumonia,7/9/2025,7/19/2025,10,64396,Government,Insurance,4.3,No
+934,P0934,41,Male,Thane,General Medicine,Dr. Singh,Pneumonia,12/28/2025,12/31/2025,3,39336,Self-Pay,Insurance,3.8,No
+935,P0935,11,Male,Pune,Oncology,Dr. Kapoor,Heart Disease,12/18/2025,12/30/2025,12,153747,Private,Card,3.2,No
+936,P0936,14,Male,Navi Mumbai,Pediatrics,Dr. Shah,Migraine,12/13/2025,12/21/2025,8,58510,Government,Insurance,4,No
+937,P0937,27,Female,Mumbai,Oncology,Dr. Desai,Fracture,8/5/2025,8/13/2025,8,122878,Self-Pay,UPI,3.8,No
+938,P0938,69,Male,Nashik,Gastroenterology,Dr. Nair,Diabetes,11/16/2025,11/26/2025,10,81345,Private,Insurance,5,No
+939,P0939,17,Female,Mumbai,General Medicine,Dr. Gupta,Fracture,4/21/2025,4/25/2025,4,47403,Private,Card,4.1,Yes
+940,P0940,56,Male,Thane,General Medicine,Dr. Gupta,Asthma,2/11/2025,2/26/2025,15,127695,Private,Cash,4.1,No
+941,P0941,57,Female,Nashik,Gastroenterology,Dr. Nair,Fracture,3/10/2025,3/23/2025,13,82607,Government,Insurance,4,No
+942,P0942,66,Male,Mumbai,Gastroenterology,Dr. Bhat,Migraine,10/5/2025,10/6/2025,1,30527,Private,Card,2.8,No
+943,P0943,53,Female,Navi Mumbai,General Medicine,Dr. Gupta,Hypertension,8/23/2025,8/31/2025,8,46315,Self-Pay,Card,4.2,No
+944,P0944,70,Female,Mumbai,Cardiology,Dr. Mehta,Diabetes,4/25/2025,5/2/2025,7,103491,Self-Pay,UPI,3.8,No
+945,P0945,57,Male,Mumbai,Pediatrics,Dr. Iyer,Heart Disease,8/17/2025,8/22/2025,5,30910,Private,Insurance,3.3,No
+946,P0946,48,Female,Navi Mumbai,Orthopedics,Dr. Joshi,Asthma,6/20/2025,7/1/2025,11,70228,Self-Pay,Card,4.9,No
+947,P0947,55,Male,Thane,Gastroenterology,Dr. Nair,Heart Disease,9/14/2025,9/24/2025,10,79874,Self-Pay,UPI,3.8,No
+948,P0948,38,Female,Nashik,Orthopedics,Dr. Patil,Cancer,12/7/2025,12/15/2025,8,70394,Government,Insurance,4.2,No
+949,P0949,39,Female,Nashik,General Medicine,Dr. Gupta,Cancer,6/17/2025,6/27/2025,10,73860,Self-Pay,Cash,4.6,No
+950,P0950,9,Female,Navi Mumbai,Orthopedics,Dr. Patil,Migraine,6/16/2025,6/17/2025,1,35603,Private,Card,3.3,No
+951,P0951,85,Female,Navi Mumbai,Neurology,Dr. Khan,Heart Disease,6/30/2025,7/14/2025,14,106218,Government,Cash,4.2,No
+952,P0952,23,Male,Mumbai,General Medicine,Dr. Gupta,Kidney Disease,6/25/2025,6/28/2025,3,35700,Self-Pay,Card,3.5,No
+953,P0953,21,Female,Nashik,Cardiology,Dr. Mehta,Migraine,12/22/2025,12/27/2025,5,73440,Private,Cash,4.3,No
+954,P0954,16,Female,Mumbai,Orthopedics,Dr. Joshi,Fracture,4/4/2025,4/10/2025,6,79576,Private,Card,3.4,No
+955,P0955,60,Male,Mumbai,Cardiology,Dr. Sharma,Kidney Disease,2/28/2025,3/5/2025,5,75845,Private,Card,3.7,No
+956,P0956,48,Female,Pune,Pediatrics,Dr. Iyer,Fracture,9/9/2025,9/15/2025,6,36145,Private,UPI,4.3,No
+957,P0957,32,Female,Navi Mumbai,General Medicine,Dr. Singh,Heart Disease,6/3/2025,6/5/2025,2,34589,Private,Insurance,4.2,No
+958,P0958,31,Female,Nashik,Neurology,Dr. Khan,Hypertension,1/21/2025,2/1/2025,11,100002,Private,Insurance,4.1,Yes
+959,P0959,4,Female,Mumbai,General Medicine,Dr. Gupta,Pneumonia,1/9/2025,1/23/2025,14,100148,Self-Pay,Insurance,3.7,No
+960,P0960,80,Female,Navi Mumbai,Oncology,Dr. Desai,Pneumonia,7/27/2025,8/3/2025,7,109716,Government,Cash,4.6,No
+961,P0961,35,Female,Nashik,Pediatrics,Dr. Iyer,Hypertension,12/9/2025,12/24/2025,15,87605,Private,Card,4.1,No
+962,P0962,69,Female,Nashik,General Medicine,Dr. Singh,Diabetes,10/22/2025,10/28/2025,6,57602,Self-Pay,Card,2,No
+963,P0963,12,Male,Navi Mumbai,Oncology,Dr. Kapoor,Fracture,7/28/2025,8/2/2025,5,104623,Private,Insurance,2.9,No
+964,P0964,81,Male,Pune,Pulmonology,Dr. Kulkarni,Asthma,7/28/2025,8/10/2025,13,71469,Government,Cash,4.6,No
+965,P0965,64,Male,Mumbai,General Medicine,Dr. Singh,Heart Disease,4/1/2025,4/7/2025,6,51665,Government,UPI,4.3,No
+966,P0966,52,Male,Mumbai,Neurology,Dr. Rao,Hypertension,6/6/2025,6/9/2025,3,48292,Self-Pay,Insurance,4,No
+967,P0967,83,Female,Navi Mumbai,Orthopedics,Dr. Patil,Migraine,6/13/2025,6/20/2025,7,76340,Self-Pay,Cash,3,No
+968,P0968,18,Female,Thane,Orthopedics,Dr. Patil,Diabetes,10/13/2025,10/27/2025,14,83580,Private,Card,2.7,No
+969,P0969,79,Male,Thane,Pediatrics,Dr. Iyer,Hypertension,7/31/2025,8/8/2025,8,59179,Government,Insurance,2.4,No
+970,P0970,59,Male,Pune,Gastroenterology,Dr. Nair,Hypertension,9/28/2025,9/30/2025,2,34218,Government,Card,4.4,Yes
+971,P0971,47,Male,Nashik,Neurology,Dr. Rao,Kidney Disease,7/28/2025,8/11/2025,14,111237,Private,Card,3.9,No
+972,P0972,60,Male,Thane,Neurology,Dr. Rao,Fracture,3/29/2025,4/9/2025,11,77338,Government,Insurance,4.4,No
+973,P0973,18,Male,Pune,Oncology,Dr. Kapoor,Migraine,12/3/2025,12/9/2025,6,117171,Private,Insurance,2.5,No
+974,P0974,34,Male,Thane,Pulmonology,Dr. Kulkarni,Heart Disease,3/2/2025,3/11/2025,9,72537,Private,Cash,4,No
+975,P0975,28,Male,Navi Mumbai,Gastroenterology,Dr. Nair,Hypertension,4/17/2025,4/28/2025,11,56352,Private,Cash,4.1,No
+976,P0976,32,Female,Navi Mumbai,Pediatrics,Dr. Shah,Fracture,6/12/2025,6/15/2025,3,32198,Private,Card,4.2,No
+977,P0977,75,Female,Mumbai,Pulmonology,Dr. Kulkarni,Kidney Disease,2/14/2025,2/21/2025,7,80055,Government,Card,4,Yes
+978,P0978,6,Male,Nashik,General Medicine,Dr. Singh,Migraine,7/13/2025,7/18/2025,5,47542,Private,UPI,3.8,No
+979,P0979,76,Male,Thane,Cardiology,Dr. Mehta,Heart Disease,6/25/2025,7/5/2025,10,80687,Government,Cash,4.6,No
+980,P0980,36,Male,Pune,Cardiology,Dr. Mehta,Fracture,8/21/2025,8/29/2025,8,92892,Government,Cash,3.8,No
+981,P0981,70,Female,Thane,Orthopedics,Dr. Patil,Kidney Disease,3/24/2025,4/6/2025,13,64159,Self-Pay,UPI,4,No
+982,P0982,4,Male,Navi Mumbai,Pediatrics,Dr. Shah,Pneumonia,10/3/2025,10/15/2025,12,99901,Private,Card,3.2,No
+983,P0983,35,Male,Mumbai,Gastroenterology,Dr. Nair,Diabetes,1/14/2025,1/17/2025,3,52537,Self-Pay,Cash,2.9,No
+984,P0984,52,Female,Mumbai,Pulmonology,Dr. Verma,Hypertension,5/22/2025,5/28/2025,6,53005,Private,Card,4.2,No
+985,P0985,58,Male,Nashik,Gastroenterology,Dr. Bhat,Fracture,6/27/2025,7/2/2025,5,68297,Government,Card,4.1,No
+986,P0986,72,Female,Pune,Gastroenterology,Dr. Nair,Kidney Disease,4/20/2025,4/25/2025,5,54250,Self-Pay,UPI,3.5,No
+987,P0987,64,Female,Pune,Pulmonology,Dr. Kulkarni,Pneumonia,8/17/2025,8/23/2025,6,50933,Self-Pay,Cash,4.7,Yes
+988,P0988,63,Female,Navi Mumbai,Pediatrics,Dr. Iyer,Gastritis,10/25/2025,10/31/2025,6,65038,Government,Insurance,3,No
+989,P0989,76,Female,Mumbai,Orthopedics,Dr. Joshi,Hypertension,11/14/2025,11/15/2025,1,37899,Self-Pay,Card,4.5,Yes
+990,P0990,8,Male,Thane,Orthopedics,Dr. Patil,Heart Disease,7/2/2025,7/8/2025,6,49755,Private,Cash,4.1,No
+991,P0991,19,Male,Pune,Orthopedics,Dr. Joshi,Diabetes,11/23/2025,12/8/2025,15,89941,Private,Card,3.9,Yes
+992,P0992,50,Male,Thane,General Medicine,Dr. Singh,Heart Disease,4/15/2025,4/19/2025,4,41424,Private,Cash,3.7,No
+993,P0993,38,Female,Pune,Oncology,Dr. Kapoor,Gastritis,11/12/2025,11/13/2025,1,82038,Government,Card,3.7,No
+994,P0994,25,Female,Navi Mumbai,Cardiology,Dr. Mehta,Migraine,7/21/2025,7/24/2025,3,67983,Private,Insurance,3.6,No
+995,P0995,82,Male,Thane,Gastroenterology,Dr. Bhat,Kidney Disease,3/13/2025,3/24/2025,11,109862,Private,Card,2.8,No
+996,P0996,19,Male,Thane,Oncology,Dr. Kapoor,Pneumonia,6/6/2025,6/10/2025,4,95247,Self-Pay,UPI,4,No
+997,P0997,5,Female,Navi Mumbai,General Medicine,Dr. Singh,Heart Disease,4/16/2025,4/22/2025,6,32415,Self-Pay,Card,4.3,No
+998,P0998,63,Male,Mumbai,Oncology,Dr. Kapoor,Hypertension,3/17/2025,3/29/2025,12,139720,Government,Insurance,3.7,No
+999,P0999,26,Male,Nashik,Pulmonology,Dr. Verma,Migraine,9/2/2025,9/14/2025,12,68898,Private,Cash,2.5,No
+1000,P1000,6,Female,Thane,Gastroenterology,Dr. Nair,Migraine,9/1/2025,9/11/2025,10,86532,Government,Cash,3.9,No
